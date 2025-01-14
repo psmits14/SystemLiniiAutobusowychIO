@@ -1,4 +1,4 @@
-package Model.Model;
+
 
 import Model.Model.Bilet;
 import Model.Model.Dane;

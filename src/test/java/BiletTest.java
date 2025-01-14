@@ -1,4 +1,4 @@
-package Model.Model;
+
 
 import Model.Model.Bilet;
 import Model.Model.Dane;
@@ -30,6 +30,7 @@ public class BiletTest implements TestExecutionExceptionHandler {
         bilety = dane.bilety;
         oczekiwaneWynikiWaznosci = dane.oczekiwaneWynikiBilety;
     }
+
 
     // Test sprawdzający ważność biletów
     @Test
