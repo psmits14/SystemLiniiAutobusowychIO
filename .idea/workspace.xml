@@ -4,10 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6225016e-6a41-4f34-9a6d-8250cb4dcff4" name="Changes" comment="First commit">
-      <change afterPath="$PROJECT_DIR$/src/test/java/BiletTestMockit.java" afterDir="false" />
+    <list default="true" id="6225016e-6a41-4f34-9a6d-8250cb4dcff4" name="Changes" comment="Mockit test">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/BiletTestMockit.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/BiletTestMockit.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -55,7 +54,15 @@
   "keyToString": {
     "ASKED_ADD_EXTERNAL_FILES": "true",
     "Downloaded.Files.Path.Enabled": "false",
+    "JUnit.AllTestsSuite.executor": "Run",
     "JUnit.BiletTestMockit.executor": "Run",
+    "JUnit.BiletTestMockit.testDodajBiletZDuplikatemZMockiem.executor": "Run",
+    "JUnit.BiletTestMockit.testDodajBiletZMockiem.executor": "Run",
+    "JUnit.BiletTestMockit.testNiepoprawneBiletyZMockiem.executor": "Run",
+    "JUnit.BiletTestMockit.testPobierzBiletZMockiem.executor": "Run",
+    "JUnit.BiletTestMockit.testSprawdzWaznoscBiletu.executor": "Run",
+    "JUnit.BiletTestMockit.testSprawdzWaznoscBiletuFasada.executor": "Run",
+    "JUnit.BiletTestMockit.testWaznosciBiletowZMockiem.executor": "Run",
     "JUnit.OsobaTest.executor": "Run",
     "JUnit.PozytywneTestySuite.executor": "Run",
     "Repository.Attach.Annotations": "false",
@@ -95,65 +102,51 @@
       <recent name="Kontroler.Kontroler" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.BiletTestMockit">
-    <configuration name="BiletTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="BusApp" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Model.Model.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="Model.Model" />
-      <option name="MAIN_CLASS_NAME" value="Model.Model.BiletTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="BiletTestMockit" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.WszystkieTestyBezWyjatkowSuite">
+    <configuration name="BiletTestMockit.testDodajBiletZMockiem" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="BusApp" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="BiletTestMockit" />
-      <option name="TEST_OBJECT" value="class" />
+      <option name="METHOD_NAME" value="testDodajBiletZMockiem" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="OsobaTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="BiletTestMockit.testPobierzBiletZMockiem" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="BusApp" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="OsobaTest" />
-      <option name="TEST_OBJECT" value="class" />
+      <option name="MAIN_CLASS_NAME" value="BiletTestMockit" />
+      <option name="METHOD_NAME" value="testPobierzBiletZMockiem" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PozytywneTestySuite" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="BiletTestMockit.testSprawdzWaznoscBiletuFasada" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="BusApp" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Model.Model.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="Model.Model" />
-      <option name="MAIN_CLASS_NAME" value="Model.Model.PozytywneTestySuite" />
-      <option name="TEST_OBJECT" value="class" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="BiletTestMockit" />
+      <option name="METHOD_NAME" value="testSprawdzWaznoscBiletuFasada" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestSuite" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="BiletTestMockit.testWaznosciBiletowZMockiem" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="BusApp" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Model.Model.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="Model.Model" />
-      <option name="MAIN_CLASS_NAME" value="Model.Model.TestSuite" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="BiletTestMockit" />
+      <option name="METHOD_NAME" value="testWaznosciBiletowZMockiem" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="WszystkieTestyBezWyjatkowSuite" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="BusApp" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="WszystkieTestyBezWyjatkowSuite" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -161,11 +154,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.BiletTestMockit" />
-        <item itemvalue="JUnit.OsobaTest" />
-        <item itemvalue="JUnit.PozytywneTestySuite" />
-        <item itemvalue="JUnit.TestSuite" />
-        <item itemvalue="JUnit.BiletTest" />
+        <item itemvalue="JUnit.WszystkieTestyBezWyjatkowSuite" />
+        <item itemvalue="JUnit.BiletTestMockit.testSprawdzWaznoscBiletuFasada" />
+        <item itemvalue="JUnit.BiletTestMockit.testPobierzBiletZMockiem" />
+        <item itemvalue="JUnit.BiletTestMockit.testDodajBiletZMockiem" />
+        <item itemvalue="JUnit.BiletTestMockit.testWaznosciBiletowZMockiem" />
       </list>
     </recent_temporary>
   </component>
@@ -185,7 +178,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1736498452742</updated>
-      <workItem from="1737024003112" duration="3742000" />
+      <workItem from="1737024003112" duration="4472000" />
+      <workItem from="1737101554327" duration="4461000" />
     </task>
     <task id="LOCAL-00001" summary="First commit">
       <created>1736628409982</created>
@@ -194,7 +188,15 @@
       <option name="project" value="LOCAL" />
       <updated>1736628409982</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Mockit test">
+      <option name="closed" value="true" />
+      <created>1737071230972</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1737071230972</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -203,6 +205,7 @@
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="First commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="First commit" />
+    <MESSAGE value="Mockit test" />
+    <option name="LAST_COMMIT_MESSAGE" value="Mockit test" />
   </component>
 </project>
