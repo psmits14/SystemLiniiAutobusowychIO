@@ -41,7 +41,7 @@ W projekcie zaimplementowano testy jednostkowe oraz testy FitNesse, aby zapewni�
 
 1. Sklonuj repozytorium:
    ```bash
-   git clone https://github.com/psmits14/IO
+   git clone https://github.com/psmits14/io-system-linii-autobusowych
    ```
 2. Otwórz projekt w wybranym środowisku developerskim.
 3. Skompiluj i uruchom aplikację.
