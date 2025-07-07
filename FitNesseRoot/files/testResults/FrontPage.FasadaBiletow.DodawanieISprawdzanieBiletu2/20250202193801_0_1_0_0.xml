@@ -1,0 +1,292 @@
+<?xml version="1.0"?>
+<testResults>
+  <FitNesseVersion>v20241207</FitNesseVersion>
+  <rootPath>FrontPage.FasadaBiletow.DodawanieISprawdzanieBiletu2</rootPath>
+  <result>
+    <counts>
+      <right>8</right>
+      <wrong>4</wrong>
+      <ignores>0</ignores>
+      <exceptions>5</exceptions>
+    </counts>
+    <date>2025-02-02T19:38:01+01:00</date>
+    <runTimeInMillis>43</runTimeInMillis>
+    <content>&lt;div class="collapsible closed"&gt;&lt;ul&gt;&lt;li&gt;&lt;a href='#' class='expandall'&gt;Expand&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href='#' class='collapseall'&gt;Collapse&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;
+	&lt;p class="title"&gt;Included page: &lt;a href="FrontPage.FasadaBiletow.SetUp"&gt;.FrontPage.FasadaBiletow.SetUp&lt;/a&gt; &lt;a href="FrontPage.FasadaBiletow.SetUp?edit&amp;amp;redirectToReferer=true&amp;amp;redirectAction=" class="edit"&gt;(edit)&lt;/a&gt;&lt;/p&gt;
+	&lt;div&gt;&lt;table&gt;
+	&lt;tr&gt;
+		&lt;td&gt;testyfitnessfixture.SetUp&lt;/td&gt;
+	&lt;/tr&gt;
+&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;br/&gt;&lt;div class="collapsible"&gt;&lt;ul&gt;&lt;li&gt;&lt;a href='#' class='expandall'&gt;Expand&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href='#' class='collapseall'&gt;Collapse&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;
+	&lt;p class="title"&gt;Included page: &lt;a href="FrontPage.FasadaBiletow.DodawanieBiletu"&gt;DodawanieBiletu&lt;/a&gt; &lt;a href="FrontPage.FasadaBiletow.DodawanieBiletu?edit&amp;amp;redirectToReferer=true&amp;amp;redirectAction=" class="edit"&gt;(edit)&lt;/a&gt;&lt;/p&gt;
+	&lt;div&gt;&lt;table&gt;
+	&lt;tr&gt;
+		&lt;td colspan="10"&gt;testyfitnessfixture.testDodawanieBiletu&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr&gt;
+		&lt;td&gt;nrBiletu&lt;/td&gt;
+		&lt;td&gt;imiennosc&lt;/td&gt;
+		&lt;td&gt;ulga&lt;/td&gt;
+		&lt;td&gt;imieOsoby&lt;/td&gt;
+		&lt;td&gt;nazwiskoOsoby&lt;/td&gt;
+		&lt;td&gt;pesel&lt;/td&gt;
+		&lt;td&gt;nrDokumentu&lt;/td&gt;
+		&lt;td&gt;rola&lt;/td&gt;
+		&lt;td&gt;dataWaznosci&lt;/td&gt;
+		&lt;td&gt;dodajBilet()&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr&gt;
+		&lt;td&gt;2&lt;/td&gt;
+		&lt;td&gt;false&lt;/td&gt;
+		&lt;td&gt;true&lt;/td&gt;
+		&lt;td&gt; &lt;span class="fit_grey"&gt;null&lt;/span&gt;&lt;/td&gt;
+		&lt;td&gt; &lt;span class="fit_grey"&gt;null&lt;/span&gt;&lt;/td&gt;
+		&lt;td&gt;0&lt;/td&gt;
+		&lt;td&gt; &lt;span class="fit_grey"&gt;null&lt;/span&gt;&lt;/td&gt;
+		&lt;td&gt; &lt;span class="fit_grey"&gt;null&lt;/span&gt;&lt;/td&gt;
+		&lt;td&gt;2025-01-15T10:30:00&lt;/td&gt;
+		&lt;td class="pass"&gt;true&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr&gt;
+		&lt;td&gt;1&lt;/td&gt;
+		&lt;td&gt;true&lt;/td&gt;
+		&lt;td&gt;false&lt;/td&gt;
+		&lt;td&gt;Jan&lt;/td&gt;
+		&lt;td&gt;Kowalski&lt;/td&gt;
+		&lt;td&gt;99010112345&lt;/td&gt;
+		&lt;td&gt;ABC123&lt;/td&gt;
+		&lt;td&gt;Klient&lt;/td&gt;
+		&lt;td&gt;2028-12-31T12:00:00&lt;/td&gt;
+		&lt;td class="pass"&gt;true&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr&gt;
+		&lt;td&gt;1&lt;/td&gt;
+		&lt;td&gt;true&lt;/td&gt;
+		&lt;td&gt;false&lt;/td&gt;
+		&lt;td&gt;Anna&lt;/td&gt;
+		&lt;td&gt;Nowak&lt;/td&gt;
+		&lt;td&gt;85050567890&lt;/td&gt;
+		&lt;td&gt;XYZ456&lt;/td&gt;
+		&lt;td&gt;Klient&lt;/td&gt;
+		&lt;td&gt;2023-05-10T08:00:00&lt;/td&gt;
+		&lt;td class="pass"&gt;false&lt;/td&gt;
+	&lt;/tr&gt;
+&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="collapsible"&gt;&lt;ul&gt;&lt;li&gt;&lt;a href='#' class='expandall'&gt;Expand&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href='#' class='collapseall'&gt;Collapse&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;
+	&lt;p class="title"&gt;Included page: &lt;a href="FrontPage.FasadaBiletow.SprawdzanieWaznosci"&gt;SprawdzanieWaznosci&lt;/a&gt; &lt;a href="FrontPage.FasadaBiletow.SprawdzanieWaznosci?edit&amp;amp;redirectToReferer=true&amp;amp;redirectAction=" class="edit"&gt;(edit)&lt;/a&gt;&lt;/p&gt;
+	&lt;div&gt;&lt;table&gt;
+	&lt;tr&gt;
+		&lt;td colspan="2"&gt;testyfitnessfixture.testSprawdzanieWaznosci&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr&gt;
+		&lt;td&gt;nrBiletu&lt;/td&gt;
+		&lt;td&gt;sprawdzWaznosc()&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr&gt;
+		&lt;td&gt;11&lt;/td&gt;
+		&lt;td class="pass"&gt;true&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr&gt;
+		&lt;td&gt;12&lt;/td&gt;
+		&lt;td class="pass"&gt;true&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr&gt;
+		&lt;td&gt;13&lt;/td&gt;
+		&lt;td class="pass"&gt;false&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr&gt;
+		&lt;td&gt;15&lt;/td&gt;
+		&lt;td class="pass"&gt;false&lt;/td&gt;
+	&lt;/tr&gt;
+&lt;/table&gt;
+&lt;br/&gt;&lt;br/&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;br/&gt;&lt;table&gt;
+	&lt;tr&gt;
+		&lt;td colspan="3"&gt;testyfitnessfixture.TestDodawanieISprawdzanieBiletu&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr&gt;
+		&lt;td&gt;nrBiletu&lt;/td&gt;
+		&lt;td&gt;dodajBilet()&lt;/td&gt;
+		&lt;td&gt;sprawdzWaznosc()&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr&gt;
+		&lt;td&gt;1&lt;/td&gt;
+		&lt;td class="fail"&gt;true &lt;span class="fit_label"&gt;expected&lt;/span&gt;&lt;hr&gt;false &lt;span class="fit_label"&gt;actual&lt;/span&gt;&lt;/td&gt;
+		&lt;td class="error"&gt;true&lt;hr&gt;&lt;pre&gt;&lt;div class="fit_stacktrace"&gt;java.lang.IllegalArgumentException: Bilet o numerze 11 już istnieje.
+	at Model.FasadaBiletow.dodajBilet(FasadaBiletow.java:55)
+	at testyfitnessfixture.testSprawdzanieWaznosci.&lt;init&gt;(testSprawdzanieWaznosci.java:18)
+	at testyfitnessfixture.TestDodawanieISprawdzanieBiletu.sprawdzWaznosc(TestDodawanieISprawdzanieBiletu.java:27)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:578)
+	at fit.TypeAdapter.invoke(TypeAdapter.java:108)
+	at fit.TypeAdapter.get(TypeAdapter.java:97)
+	at fit.Fixture$CellComparator.compareCellToResult(Fixture.java:374)
+	at fit.Fixture.compareCellToResult(Fixture.java:302)
+	at fit.Fixture.check(Fixture.java:298)
+	at fit.ColumnFixture.check(ColumnFixture.java:45)
+	at fit.Binding$QueryBinding.doCell(Binding.java:224)
+	at fit.ColumnFixture.doCell(ColumnFixture.java:32)
+	at fit.Fixture.doCells(Fixture.java:174)
+	at fit.Fixture.doRow(Fixture.java:168)
+	at fit.ColumnFixture.doRow(ColumnFixture.java:21)
+	at fit.Fixture.doRows(Fixture.java:162)
+	at fit.ColumnFixture.doRows(ColumnFixture.java:13)
+	at fit.Fixture.doTable(Fixture.java:156)
+	at fit.Fixture.interpretFollowingTables(Fixture.java:121)
+	at fit.Fixture.interpretTables(Fixture.java:107)
+	at fit.Fixture.doTables(Fixture.java:81)
+	at fit.FitServer.process(FitServer.java:81)
+	at fit.FitServer.run(FitServer.java:56)
+	at fit.FitServer.main(FitServer.java:41)
+&lt;/div&gt;&lt;/pre&gt;&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr&gt;
+		&lt;td&gt;2&lt;/td&gt;
+		&lt;td class="fail"&gt;true &lt;span class="fit_label"&gt;expected&lt;/span&gt;&lt;hr&gt;false &lt;span class="fit_label"&gt;actual&lt;/span&gt;&lt;/td&gt;
+		&lt;td class="error"&gt;true&lt;hr&gt;&lt;pre&gt;&lt;div class="fit_stacktrace"&gt;java.lang.IllegalArgumentException: Bilet o numerze 11 już istnieje.
+	at Model.FasadaBiletow.dodajBilet(FasadaBiletow.java:55)
+	at testyfitnessfixture.testSprawdzanieWaznosci.&lt;init&gt;(testSprawdzanieWaznosci.java:18)
+	at testyfitnessfixture.TestDodawanieISprawdzanieBiletu.sprawdzWaznosc(TestDodawanieISprawdzanieBiletu.java:27)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:578)
+	at fit.TypeAdapter.invoke(TypeAdapter.java:108)
+	at fit.TypeAdapter.get(TypeAdapter.java:97)
+	at fit.Fixture$CellComparator.compareCellToResult(Fixture.java:374)
+	at fit.Fixture.compareCellToResult(Fixture.java:302)
+	at fit.Fixture.check(Fixture.java:298)
+	at fit.ColumnFixture.check(ColumnFixture.java:45)
+	at fit.Binding$QueryBinding.doCell(Binding.java:224)
+	at fit.ColumnFixture.doCell(ColumnFixture.java:32)
+	at fit.Fixture.doCells(Fixture.java:174)
+	at fit.Fixture.doRow(Fixture.java:168)
+	at fit.ColumnFixture.doRow(ColumnFixture.java:21)
+	at fit.Fixture.doRows(Fixture.java:162)
+	at fit.ColumnFixture.doRows(ColumnFixture.java:13)
+	at fit.Fixture.doTable(Fixture.java:156)
+	at fit.Fixture.interpretFollowingTables(Fixture.java:121)
+	at fit.Fixture.interpretTables(Fixture.java:107)
+	at fit.Fixture.doTables(Fixture.java:81)
+	at fit.FitServer.process(FitServer.java:81)
+	at fit.FitServer.run(FitServer.java:56)
+	at fit.FitServer.main(FitServer.java:41)
+&lt;/div&gt;&lt;/pre&gt;&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr&gt;
+		&lt;td&gt;3&lt;/td&gt;
+		&lt;td class="fail"&gt;true &lt;span class="fit_label"&gt;expected&lt;/span&gt;&lt;hr&gt;false &lt;span class="fit_label"&gt;actual&lt;/span&gt;&lt;/td&gt;
+		&lt;td class="error"&gt;false&lt;hr&gt;&lt;pre&gt;&lt;div class="fit_stacktrace"&gt;java.lang.IllegalArgumentException: Bilet o numerze 11 już istnieje.
+	at Model.FasadaBiletow.dodajBilet(FasadaBiletow.java:55)
+	at testyfitnessfixture.testSprawdzanieWaznosci.&lt;init&gt;(testSprawdzanieWaznosci.java:18)
+	at testyfitnessfixture.TestDodawanieISprawdzanieBiletu.sprawdzWaznosc(TestDodawanieISprawdzanieBiletu.java:27)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:578)
+	at fit.TypeAdapter.invoke(TypeAdapter.java:108)
+	at fit.TypeAdapter.get(TypeAdapter.java:97)
+	at fit.Fixture$CellComparator.compareCellToResult(Fixture.java:374)
+	at fit.Fixture.compareCellToResult(Fixture.java:302)
+	at fit.Fixture.check(Fixture.java:298)
+	at fit.ColumnFixture.check(ColumnFixture.java:45)
+	at fit.Binding$QueryBinding.doCell(Binding.java:224)
+	at fit.ColumnFixture.doCell(ColumnFixture.java:32)
+	at fit.Fixture.doCells(Fixture.java:174)
+	at fit.Fixture.doRow(Fixture.java:168)
+	at fit.ColumnFixture.doRow(ColumnFixture.java:21)
+	at fit.Fixture.doRows(Fixture.java:162)
+	at fit.ColumnFixture.doRows(ColumnFixture.java:13)
+	at fit.Fixture.doTable(Fixture.java:156)
+	at fit.Fixture.interpretFollowingTables(Fixture.java:121)
+	at fit.Fixture.interpretTables(Fixture.java:107)
+	at fit.Fixture.doTables(Fixture.java:81)
+	at fit.FitServer.process(FitServer.java:81)
+	at fit.FitServer.run(FitServer.java:56)
+	at fit.FitServer.main(FitServer.java:41)
+&lt;/div&gt;&lt;/pre&gt;&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr&gt;
+		&lt;td&gt;4&lt;/td&gt;
+		&lt;td class="pass"&gt;false&lt;/td&gt;
+		&lt;td class="error"&gt;false&lt;hr&gt;&lt;pre&gt;&lt;div class="fit_stacktrace"&gt;java.lang.IllegalArgumentException: Bilet o numerze 11 już istnieje.
+	at Model.FasadaBiletow.dodajBilet(FasadaBiletow.java:55)
+	at testyfitnessfixture.testSprawdzanieWaznosci.&lt;init&gt;(testSprawdzanieWaznosci.java:18)
+	at testyfitnessfixture.TestDodawanieISprawdzanieBiletu.sprawdzWaznosc(TestDodawanieISprawdzanieBiletu.java:27)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:578)
+	at fit.TypeAdapter.invoke(TypeAdapter.java:108)
+	at fit.TypeAdapter.get(TypeAdapter.java:97)
+	at fit.Fixture$CellComparator.compareCellToResult(Fixture.java:374)
+	at fit.Fixture.compareCellToResult(Fixture.java:302)
+	at fit.Fixture.check(Fixture.java:298)
+	at fit.ColumnFixture.check(ColumnFixture.java:45)
+	at fit.Binding$QueryBinding.doCell(Binding.java:224)
+	at fit.ColumnFixture.doCell(ColumnFixture.java:32)
+	at fit.Fixture.doCells(Fixture.java:174)
+	at fit.Fixture.doRow(Fixture.java:168)
+	at fit.ColumnFixture.doRow(ColumnFixture.java:21)
+	at fit.Fixture.doRows(Fixture.java:162)
+	at fit.ColumnFixture.doRows(ColumnFixture.java:13)
+	at fit.Fixture.doTable(Fixture.java:156)
+	at fit.Fixture.interpretFollowingTables(Fixture.java:121)
+	at fit.Fixture.interpretTables(Fixture.java:107)
+	at fit.Fixture.doTables(Fixture.java:81)
+	at fit.FitServer.process(FitServer.java:81)
+	at fit.FitServer.run(FitServer.java:56)
+	at fit.FitServer.main(FitServer.java:41)
+&lt;/div&gt;&lt;/pre&gt;&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr&gt;
+		&lt;td&gt;1&lt;/td&gt;
+		&lt;td class="fail"&gt;true &lt;span class="fit_label"&gt;expected&lt;/span&gt;&lt;hr&gt;false &lt;span class="fit_label"&gt;actual&lt;/span&gt;&lt;/td&gt;
+		&lt;td class="error"&gt;true&lt;hr&gt;&lt;pre&gt;&lt;div class="fit_stacktrace"&gt;java.lang.IllegalArgumentException: Bilet o numerze 11 już istnieje.
+	at Model.FasadaBiletow.dodajBilet(FasadaBiletow.java:55)
+	at testyfitnessfixture.testSprawdzanieWaznosci.&lt;init&gt;(testSprawdzanieWaznosci.java:18)
+	at testyfitnessfixture.TestDodawanieISprawdzanieBiletu.sprawdzWaznosc(TestDodawanieISprawdzanieBiletu.java:27)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:578)
+	at fit.TypeAdapter.invoke(TypeAdapter.java:108)
+	at fit.TypeAdapter.get(TypeAdapter.java:97)
+	at fit.Fixture$CellComparator.compareCellToResult(Fixture.java:374)
+	at fit.Fixture.compareCellToResult(Fixture.java:302)
+	at fit.Fixture.check(Fixture.java:298)
+	at fit.ColumnFixture.check(ColumnFixture.java:45)
+	at fit.Binding$QueryBinding.doCell(Binding.java:224)
+	at fit.ColumnFixture.doCell(ColumnFixture.java:32)
+	at fit.Fixture.doCells(Fixture.java:174)
+	at fit.Fixture.doRow(Fixture.java:168)
+	at fit.ColumnFixture.doRow(ColumnFixture.java:21)
+	at fit.Fixture.doRows(Fixture.java:162)
+	at fit.ColumnFixture.doRows(ColumnFixture.java:13)
+	at fit.Fixture.doTable(Fixture.java:156)
+	at fit.Fixture.interpretFollowingTables(Fixture.java:121)
+	at fit.Fixture.interpretTables(Fixture.java:107)
+	at fit.Fixture.doTables(Fixture.java:81)
+	at fit.FitServer.process(FitServer.java:81)
+	at fit.FitServer.run(FitServer.java:56)
+	at fit.FitServer.main(FitServer.java:41)
+&lt;/div&gt;&lt;/pre&gt;&lt;/td&gt;
+	&lt;/tr&gt;
+&lt;/table&gt;
+</content>
+    <relativePageName>DodawanieISprawdzanieBiletu2</relativePageName>
+  </result>
+  <executionLog>
+    <testSystem>fit:fit.FitServer</testSystem>
+    <command>java -cp C:\Users\patry\IdeaProjects\TestFitnesse\target\classes;C:\Users\patry\IdeaProjects\TestFitnesse\target\test-classes;C:\Users\patry\IdeaProjects\TestFitnesse\fitnesse-standalone.jar fit.FitServer LaptopPatrycja 51944 3863</command>
+    <exitCode>9</exitCode>
+    <stdOut></stdOut>
+    <stdErr></stdErr>
+  </executionLog>
+  <finalCounts>
+    <right>0</right>
+    <wrong>1</wrong>
+    <ignores>0</ignores>
+    <exceptions>0</exceptions>
+  </finalCounts>
+  <totalRunTimeInMillis>395</totalRunTimeInMillis>
+</testResults>
+

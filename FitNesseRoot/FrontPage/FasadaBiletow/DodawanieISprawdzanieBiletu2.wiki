@@ -1,0 +1,20 @@
+---
+Test
+---
+!include DodawanieBiletu
+!include PobieranieBiletu
+!include SprawdzanieWaznosci
+
+!|testyfitnessfixture.TestDodawanieISprawdzanieBiletu|
+|nrBiletu|pobierzBilet()|sprawdzWaznosc()|
+|1       |true        |true            |
+|2       |true        |false           |
+|3       |false        |false           | 
+|11      |true        |true           |
+|12      |true       |true           | 
+|13      |true        |false           |
+|15      |false       |false           | 
+|10       |true        |true            | 
+|20       |true        |true            | 
+|30       |true        |false            | 
+|50       |false        |false            | 

@@ -1,0 +1,15 @@
+---
+Test
+---
+!|testyfitnessfixture.testDodawanieBiletu|
+|nrBiletu |imiennosc|ulga  |imieOsoby |nazwiskoOsoby |pesel        |nrDokumentu |rola       |dataWaznosci         |dodajBilet()?|
+|1        |true     |false |Jan       |Kowalski      |99010112345  |ABC123      |Klient     |2028-12-31T12:00:00  |true        |
+|2        |false    |true  |null      |null          |0            |null        |null       |2028-01-15T10:30:00  |true        |
+|3        |true     |false |Anna      |Nowak        |85050567890  |XYZ456      |Klient |2023-05-10T08:00:00 |true       |
+
+!|testyfitnessfixture.testSprawdzanieWaznosci|
+|nrBiletu |sprawdzWaznosc()?|
+|1        |true            |
+|2        |true            |
+|3        |false           | 
+|4        |false           |

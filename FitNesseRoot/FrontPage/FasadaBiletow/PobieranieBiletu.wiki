@@ -1,0 +1,9 @@
+---
+Test
+---
+!|testyfitnessfixture.testPobieranieBiletu|
+|nrBiletu|pobierzBilet()|
+|10       |true         |
+|20       |true         |
+|30       |true         |
+|50       |false        | 

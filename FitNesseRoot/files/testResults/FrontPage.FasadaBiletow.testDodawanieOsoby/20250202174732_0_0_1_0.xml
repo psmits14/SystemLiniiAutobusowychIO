@@ -1,0 +1,41 @@
+<?xml version="1.0"?>
+<testResults>
+  <FitNesseVersion>v20241207</FitNesseVersion>
+  <rootPath>FrontPage.FasadaBiletow.testDodawanieOsoby</rootPath>
+  <result>
+    <counts>
+      <right>0</right>
+      <wrong>0</wrong>
+      <ignores>0</ignores>
+      <exceptions>0</exceptions>
+    </counts>
+    <date>2025-02-02T17:47:32+01:00</date>
+    <runTimeInMillis>13</runTimeInMillis>
+    <content>&lt;div class="collapsible closed"&gt;&lt;ul&gt;&lt;li&gt;&lt;a href='#' class='expandall'&gt;Expand&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href='#' class='collapseall'&gt;Collapse&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;
+	&lt;p class="title"&gt;Included page: &lt;a href="FrontPage.FasadaBiletow.SetUp"&gt;.FrontPage.FasadaBiletow.SetUp&lt;/a&gt; &lt;a href="FrontPage.FasadaBiletow.SetUp?edit&amp;amp;redirectToReferer=true&amp;amp;redirectAction=" class="edit"&gt;(edit)&lt;/a&gt;&lt;/p&gt;
+	&lt;div&gt;&lt;table&gt;
+	&lt;tr&gt;
+		&lt;td&gt;testyfitnessfixture.SetUp&lt;/td&gt;
+	&lt;/tr&gt;
+&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;br/&gt;!|testyfitnessfixture.testDodawanieOsoby|&lt;br/&gt;|imie  |nazwisko |pesel       |nrDokumentu |rola       |dodajOsobe()|&lt;br/&gt;|Jan   |Kowalski |12345678900 |ABC123456   |Klient     |true        |&lt;br/&gt;|Anna  |Nowak    |98765432100 |XYZ987654   |Klient     |true        |&lt;br/&gt;|Piotr |Zieliński|11122233300 |QWE111222   |Kierowca   |true        |&lt;br/&gt;|Anna  |Nowak    |-987654321  |XYZ987654   |Koordynator|!error      | # PESEL ujemny&lt;br/&gt;|      |Zieliński|11122233344 |QWE111222   |Kierowca   |!error      | # Puste imię&lt;br/&gt;|Piotr |        |11122233344 |QWE111222   |Kierowca   |!error      | # Puste nazwisko&lt;br/&gt;|Jan   |Kowalski |123456      |ABC123456   |Klient     |!error      | # PESEL zbyt krótki&lt;br/&gt;|Jan   |Kowalski |1234567890123|ABC123456  |Klient     |!error      | # PESEL zbyt długi&lt;br/&gt;|Jan   |Kowalski |12345678900 |           |Klient     |!error      | # Pusty numer dokumentu&lt;br/&gt;|Jan   |Kowalski |12345678900 |ABC123456   |           |!error      | # Null w roli&lt;br/&gt;</content>
+    <relativePageName>testDodawanieOsoby</relativePageName>
+  </result>
+  <executionLog>
+    <testSystem>fit:fit.FitServer</testSystem>
+    <command>java -cp C:\Users\patry\IdeaProjects\TestFitnesse\target\classes;C:\Users\patry\IdeaProjects\TestFitnesse\target\test-classes;C:\Users\patry\IdeaProjects\TestFitnesse\fitnesse-standalone.jar fit.FitServer LaptopPatrycja 34895 3863</command>
+    <exitCode>0</exitCode>
+    <stdOut></stdOut>
+    <stdErr></stdErr>
+  </executionLog>
+  <finalCounts>
+    <right>0</right>
+    <wrong>0</wrong>
+    <ignores>1</ignores>
+    <exceptions>0</exceptions>
+  </finalCounts>
+  <totalRunTimeInMillis>401</totalRunTimeInMillis>
+</testResults>
+

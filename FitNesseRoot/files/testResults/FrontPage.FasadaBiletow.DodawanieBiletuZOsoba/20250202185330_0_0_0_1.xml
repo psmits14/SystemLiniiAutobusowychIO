@@ -1,0 +1,1873 @@
+<?xml version="1.0"?>
+<testResults>
+  <FitNesseVersion>v20241207</FitNesseVersion>
+  <rootPath>FrontPage.FasadaBiletow.DodawanieBiletuZOsoba</rootPath>
+  <result>
+    <counts>
+      <right>0</right>
+      <wrong>0</wrong>
+      <ignores>0</ignores>
+      <exceptions>18</exceptions>
+    </counts>
+    <date>2025-02-02T18:53:30+01:00</date>
+    <runTimeInMillis>146</runTimeInMillis>
+    <content>&lt;div class="collapsible closed"&gt;&lt;ul&gt;&lt;li&gt;&lt;a href='#' class='expandall'&gt;Expand&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href='#' class='collapseall'&gt;Collapse&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;
+	&lt;p class="title"&gt;Included page: &lt;a href="FrontPage.FasadaBiletow.SetUp"&gt;.FrontPage.FasadaBiletow.SetUp&lt;/a&gt; &lt;a href="FrontPage.FasadaBiletow.SetUp?edit&amp;amp;redirectToReferer=true&amp;amp;redirectAction=" class="edit"&gt;(edit)&lt;/a&gt;&lt;/p&gt;
+	&lt;div&gt;&lt;table&gt;
+	&lt;tr class="slimRowTitle"&gt;
+		&lt;td&gt;&lt;span class="pass"&gt;testyfitnessfixture.SetUp&lt;/span&gt;&lt;/td&gt;
+	&lt;/tr&gt;
+&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;br/&gt;&lt;span class="meta"&gt;variable defined: TEST_SYSTEM=slim&lt;/span&gt;
+&lt;br/&gt;&lt;br/&gt;&lt;div class="collapsible closed"&gt;&lt;ul&gt;&lt;li&gt;&lt;a href='#' class='expandall'&gt;Expand&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href='#' class='collapseall'&gt;Collapse&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;
+	&lt;p class="title"&gt;Included page: &lt;a href="FrontPage.FasadaBiletow.testDodawanieOsoby"&gt;testDodawanieOsoby&lt;/a&gt; &lt;a href="FrontPage.FasadaBiletow.testDodawanieOsoby?edit&amp;amp;redirectToReferer=true&amp;amp;redirectAction=" class="edit"&gt;(edit)&lt;/a&gt;&lt;/p&gt;
+	&lt;div&gt;!|testyfitnessfixture.testDodawanieOsoby|&lt;br/&gt;|imie  |nazwisko |pesel       |nrDokumentu |rola       |dodajOsobe()|&lt;br/&gt;|Jan   |Kowalski |12345678900 |ABC123456   |Klient     |true        |&lt;br/&gt;|Anna  |Nowak    |98765432100 |XYZ987654   |Klient     |true        |&lt;br/&gt;|Piotr |Zieliński|11122233300 |QWE111222   |Kierowca   |true        |&lt;br/&gt;|Anna  |Nowak    |-987654321  |XYZ987654   |Koordynator|false      | &lt;br/&gt;|null      |Zieliński|11122233344 |QWE111222   |Kierowca   |false      | &lt;br/&gt;|Piotr | null     |11122233344 |QWE111222   |Kierowca   |false      | &lt;br/&gt;|Jan   |Kowalski |123456      |ABC123456   |Klient     |false      | &lt;br/&gt;|Jan   |Kowalski |1234567890123|ABC123456  |Klient     |false      | &lt;br/&gt;|Jan   |Kowalski |12345678900 |   null      |Klient     |false      | &lt;/div&gt;
+&lt;/div&gt;
+&lt;br/&gt;&lt;table&gt;
+	&lt;tr class="slimRowTitle"&gt;
+		&lt;td colspan="6"&gt;&lt;span class="pass"&gt;testyfitnessfixture.DodawanieBiletuZOsoba&lt;/span&gt;&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowTitle"&gt;
+		&lt;td&gt;idOsoby&lt;/td&gt;
+		&lt;td&gt;nrBiletu&lt;/td&gt;
+		&lt;td&gt;imiennosc&lt;/td&gt;
+		&lt;td&gt;ulga&lt;/td&gt;
+		&lt;td&gt;dataWaznosci&lt;/td&gt;
+		&lt;td&gt;dodajBiletZOsoba()&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor1"&gt;
+		&lt;td&gt;1 &lt;span class="error"&gt;No Method setIdOsoby[1] in class testyfitnessfixture.DodawanieBiletuZOsoba.
+ Available methods:
+ClearSymbols() -&amp;gt; void
+callParseMethod(java.lang.Class, java.lang.String) -&amp;gt; class java.lang.Object
+camel(java.lang.String) -&amp;gt; class java.lang.String
+check(fit.Parse, fit.TypeAdapter) -&amp;gt; void
+counts() -&amp;gt; class java.lang.String
+doCell(fit.Parse, int) -&amp;gt; void
+doCells(fit.Parse) -&amp;gt; void
+doRow(fit.Parse) -&amp;gt; void
+doRows(fit.Parse) -&amp;gt; void
+doTable(fit.Parse) -&amp;gt; void
+doTables(fit.Parse) -&amp;gt; void
+dodajBiletZOsoba() -&amp;gt; boolean
+equals(java.lang.Object) -&amp;gt; boolean
+escape(java.lang.String) -&amp;gt; class java.lang.String
+escape(java.lang.String, char, java.lang.String) -&amp;gt; class java.lang.String
+exception(fit.Parse, java.lang.Throwable) -&amp;gt; void
+execute() -&amp;gt; void
+getArgs() -&amp;gt; class [Ljava.lang.String;
+getArgsForTable(fit.Parse) -&amp;gt; void
+getClass() -&amp;gt; class java.lang.Class
+getSymbol(java.lang.String) -&amp;gt; class java.lang.Object
+gray(java.lang.String) -&amp;gt; class java.lang.String
+handleBlankCell(fit.Parse, fit.TypeAdapter) -&amp;gt; void
+hasParseMethod(java.lang.Class) -&amp;gt; boolean
+hasSymbol(java.lang.String) -&amp;gt; boolean
+hashCode() -&amp;gt; int
+ignore(fit.Parse) -&amp;gt; void
+isFriendlyException(java.lang.Throwable) -&amp;gt; boolean
+label(java.lang.String) -&amp;gt; class java.lang.String
+loadFixture(java.lang.String) -&amp;gt; class fit.Fixture
+notify() -&amp;gt; void
+notifyAll() -&amp;gt; void
+parse(java.lang.String, java.lang.Class) -&amp;gt; class java.lang.Object
+reset() -&amp;gt; void
+right(fit.Parse) -&amp;gt; void
+setForcedAbort(boolean) -&amp;gt; void
+setSymbol(java.lang.String, java.lang.Object) -&amp;gt; void
+toString() -&amp;gt; class java.lang.String
+wait() -&amp;gt; void
+wait(long) -&amp;gt; void
+wait(long, int) -&amp;gt; void
+wrong(fit.Parse) -&amp;gt; void
+wrong(fit.Parse, java.lang.String) -&amp;gt; void&lt;/span&gt;&lt;/td&gt;
+		&lt;td&gt;100 &lt;span class="error"&gt;No Method setNrBiletu[1] in class testyfitnessfixture.DodawanieBiletuZOsoba.
+ Available methods:
+ClearSymbols() -&amp;gt; void
+callParseMethod(java.lang.Class, java.lang.String) -&amp;gt; class java.lang.Object
+camel(java.lang.String) -&amp;gt; class java.lang.String
+check(fit.Parse, fit.TypeAdapter) -&amp;gt; void
+counts() -&amp;gt; class java.lang.String
+doCell(fit.Parse, int) -&amp;gt; void
+doCells(fit.Parse) -&amp;gt; void
+doRow(fit.Parse) -&amp;gt; void
+doRows(fit.Parse) -&amp;gt; void
+doTable(fit.Parse) -&amp;gt; void
+doTables(fit.Parse) -&amp;gt; void
+dodajBiletZOsoba() -&amp;gt; boolean
+equals(java.lang.Object) -&amp;gt; boolean
+escape(java.lang.String) -&amp;gt; class java.lang.String
+escape(java.lang.String, char, java.lang.String) -&amp;gt; class java.lang.String
+exception(fit.Parse, java.lang.Throwable) -&amp;gt; void
+execute() -&amp;gt; void
+getArgs() -&amp;gt; class [Ljava.lang.String;
+getArgsForTable(fit.Parse) -&amp;gt; void
+getClass() -&amp;gt; class java.lang.Class
+getSymbol(java.lang.String) -&amp;gt; class java.lang.Object
+gray(java.lang.String) -&amp;gt; class java.lang.String
+handleBlankCell(fit.Parse, fit.TypeAdapter) -&amp;gt; void
+hasParseMethod(java.lang.Class) -&amp;gt; boolean
+hasSymbol(java.lang.String) -&amp;gt; boolean
+hashCode() -&amp;gt; int
+ignore(fit.Parse) -&amp;gt; void
+isFriendlyException(java.lang.Throwable) -&amp;gt; boolean
+label(java.lang.String) -&amp;gt; class java.lang.String
+loadFixture(java.lang.String) -&amp;gt; class fit.Fixture
+notify() -&amp;gt; void
+notifyAll() -&amp;gt; void
+parse(java.lang.String, java.lang.Class) -&amp;gt; class java.lang.Object
+reset() -&amp;gt; void
+right(fit.Parse) -&amp;gt; void
+setForcedAbort(boolean) -&amp;gt; void
+setSymbol(java.lang.String, java.lang.Object) -&amp;gt; void
+toString() -&amp;gt; class java.lang.String
+wait() -&amp;gt; void
+wait(long) -&amp;gt; void
+wait(long, int) -&amp;gt; void
+wrong(fit.Parse) -&amp;gt; void
+wrong(fit.Parse, java.lang.String) -&amp;gt; void&lt;/span&gt;&lt;/td&gt;
+		&lt;td&gt;true &lt;span class="error"&gt;No Method setImiennosc[1] in class testyfitnessfixture.DodawanieBiletuZOsoba.
+ Available methods:
+ClearSymbols() -&amp;gt; void
+callParseMethod(java.lang.Class, java.lang.String) -&amp;gt; class java.lang.Object
+camel(java.lang.String) -&amp;gt; class java.lang.String
+check(fit.Parse, fit.TypeAdapter) -&amp;gt; void
+counts() -&amp;gt; class java.lang.String
+doCell(fit.Parse, int) -&amp;gt; void
+doCells(fit.Parse) -&amp;gt; void
+doRow(fit.Parse) -&amp;gt; void
+doRows(fit.Parse) -&amp;gt; void
+doTable(fit.Parse) -&amp;gt; void
+doTables(fit.Parse) -&amp;gt; void
+dodajBiletZOsoba() -&amp;gt; boolean
+equals(java.lang.Object) -&amp;gt; boolean
+escape(java.lang.String) -&amp;gt; class java.lang.String
+escape(java.lang.String, char, java.lang.String) -&amp;gt; class java.lang.String
+exception(fit.Parse, java.lang.Throwable) -&amp;gt; void
+execute() -&amp;gt; void
+getArgs() -&amp;gt; class [Ljava.lang.String;
+getArgsForTable(fit.Parse) -&amp;gt; void
+getClass() -&amp;gt; class java.lang.Class
+getSymbol(java.lang.String) -&amp;gt; class java.lang.Object
+gray(java.lang.String) -&amp;gt; class java.lang.String
+handleBlankCell(fit.Parse, fit.TypeAdapter) -&amp;gt; void
+hasParseMethod(java.lang.Class) -&amp;gt; boolean
+hasSymbol(java.lang.String) -&amp;gt; boolean
+hashCode() -&amp;gt; int
+ignore(fit.Parse) -&amp;gt; void
+isFriendlyException(java.lang.Throwable) -&amp;gt; boolean
+label(java.lang.String) -&amp;gt; class java.lang.String
+loadFixture(java.lang.String) -&amp;gt; class fit.Fixture
+notify() -&amp;gt; void
+notifyAll() -&amp;gt; void
+parse(java.lang.String, java.lang.Class) -&amp;gt; class java.lang.Object
+reset() -&amp;gt; void
+right(fit.Parse) -&amp;gt; void
+setForcedAbort(boolean) -&amp;gt; void
+setSymbol(java.lang.String, java.lang.Object) -&amp;gt; void
+toString() -&amp;gt; class java.lang.String
+wait() -&amp;gt; void
+wait(long) -&amp;gt; void
+wait(long, int) -&amp;gt; void
+wrong(fit.Parse) -&amp;gt; void
+wrong(fit.Parse, java.lang.String) -&amp;gt; void&lt;/span&gt;&lt;/td&gt;
+		&lt;td&gt;false &lt;span class="error"&gt;No Method setUlga[1] in class testyfitnessfixture.DodawanieBiletuZOsoba.
+ Available methods:
+ClearSymbols() -&amp;gt; void
+callParseMethod(java.lang.Class, java.lang.String) -&amp;gt; class java.lang.Object
+camel(java.lang.String) -&amp;gt; class java.lang.String
+check(fit.Parse, fit.TypeAdapter) -&amp;gt; void
+counts() -&amp;gt; class java.lang.String
+doCell(fit.Parse, int) -&amp;gt; void
+doCells(fit.Parse) -&amp;gt; void
+doRow(fit.Parse) -&amp;gt; void
+doRows(fit.Parse) -&amp;gt; void
+doTable(fit.Parse) -&amp;gt; void
+doTables(fit.Parse) -&amp;gt; void
+dodajBiletZOsoba() -&amp;gt; boolean
+equals(java.lang.Object) -&amp;gt; boolean
+escape(java.lang.String) -&amp;gt; class java.lang.String
+escape(java.lang.String, char, java.lang.String) -&amp;gt; class java.lang.String
+exception(fit.Parse, java.lang.Throwable) -&amp;gt; void
+execute() -&amp;gt; void
+getArgs() -&amp;gt; class [Ljava.lang.String;
+getArgsForTable(fit.Parse) -&amp;gt; void
+getClass() -&amp;gt; class java.lang.Class
+getSymbol(java.lang.String) -&amp;gt; class java.lang.Object
+gray(java.lang.String) -&amp;gt; class java.lang.String
+handleBlankCell(fit.Parse, fit.TypeAdapter) -&amp;gt; void
+hasParseMethod(java.lang.Class) -&amp;gt; boolean
+hasSymbol(java.lang.String) -&amp;gt; boolean
+hashCode() -&amp;gt; int
+ignore(fit.Parse) -&amp;gt; void
+isFriendlyException(java.lang.Throwable) -&amp;gt; boolean
+label(java.lang.String) -&amp;gt; class java.lang.String
+loadFixture(java.lang.String) -&amp;gt; class fit.Fixture
+notify() -&amp;gt; void
+notifyAll() -&amp;gt; void
+parse(java.lang.String, java.lang.Class) -&amp;gt; class java.lang.Object
+reset() -&amp;gt; void
+right(fit.Parse) -&amp;gt; void
+setForcedAbort(boolean) -&amp;gt; void
+setSymbol(java.lang.String, java.lang.Object) -&amp;gt; void
+toString() -&amp;gt; class java.lang.String
+wait() -&amp;gt; void
+wait(long) -&amp;gt; void
+wait(long, int) -&amp;gt; void
+wrong(fit.Parse) -&amp;gt; void
+wrong(fit.Parse, java.lang.String) -&amp;gt; void&lt;/span&gt;&lt;/td&gt;
+		&lt;td&gt;2024-12-31T12:00:00 &lt;span class="error"&gt;No Method setDataWaznosci[1] in class testyfitnessfixture.DodawanieBiletuZOsoba.
+ Available methods:
+ClearSymbols() -&amp;gt; void
+callParseMethod(java.lang.Class, java.lang.String) -&amp;gt; class java.lang.Object
+camel(java.lang.String) -&amp;gt; class java.lang.String
+check(fit.Parse, fit.TypeAdapter) -&amp;gt; void
+counts() -&amp;gt; class java.lang.String
+doCell(fit.Parse, int) -&amp;gt; void
+doCells(fit.Parse) -&amp;gt; void
+doRow(fit.Parse) -&amp;gt; void
+doRows(fit.Parse) -&amp;gt; void
+doTable(fit.Parse) -&amp;gt; void
+doTables(fit.Parse) -&amp;gt; void
+dodajBiletZOsoba() -&amp;gt; boolean
+equals(java.lang.Object) -&amp;gt; boolean
+escape(java.lang.String) -&amp;gt; class java.lang.String
+escape(java.lang.String, char, java.lang.String) -&amp;gt; class java.lang.String
+exception(fit.Parse, java.lang.Throwable) -&amp;gt; void
+execute() -&amp;gt; void
+getArgs() -&amp;gt; class [Ljava.lang.String;
+getArgsForTable(fit.Parse) -&amp;gt; void
+getClass() -&amp;gt; class java.lang.Class
+getSymbol(java.lang.String) -&amp;gt; class java.lang.Object
+gray(java.lang.String) -&amp;gt; class java.lang.String
+handleBlankCell(fit.Parse, fit.TypeAdapter) -&amp;gt; void
+hasParseMethod(java.lang.Class) -&amp;gt; boolean
+hasSymbol(java.lang.String) -&amp;gt; boolean
+hashCode() -&amp;gt; int
+ignore(fit.Parse) -&amp;gt; void
+isFriendlyException(java.lang.Throwable) -&amp;gt; boolean
+label(java.lang.String) -&amp;gt; class java.lang.String
+loadFixture(java.lang.String) -&amp;gt; class fit.Fixture
+notify() -&amp;gt; void
+notifyAll() -&amp;gt; void
+parse(java.lang.String, java.lang.Class) -&amp;gt; class java.lang.Object
+reset() -&amp;gt; void
+right(fit.Parse) -&amp;gt; void
+setForcedAbort(boolean) -&amp;gt; void
+setSymbol(java.lang.String, java.lang.Object) -&amp;gt; void
+toString() -&amp;gt; class java.lang.String
+wait() -&amp;gt; void
+wait(long) -&amp;gt; void
+wait(long, int) -&amp;gt; void
+wrong(fit.Parse) -&amp;gt; void
+wrong(fit.Parse, java.lang.String) -&amp;gt; void&lt;/span&gt;&lt;/td&gt;
+		&lt;td&gt;true &lt;span class="error"&gt;No Method setDodajBiletZOsoba[1] in class testyfitnessfixture.DodawanieBiletuZOsoba.
+ Available methods:
+ClearSymbols() -&amp;gt; void
+callParseMethod(java.lang.Class, java.lang.String) -&amp;gt; class java.lang.Object
+camel(java.lang.String) -&amp;gt; class java.lang.String
+check(fit.Parse, fit.TypeAdapter) -&amp;gt; void
+counts() -&amp;gt; class java.lang.String
+doCell(fit.Parse, int) -&amp;gt; void
+doCells(fit.Parse) -&amp;gt; void
+doRow(fit.Parse) -&amp;gt; void
+doRows(fit.Parse) -&amp;gt; void
+doTable(fit.Parse) -&amp;gt; void
+doTables(fit.Parse) -&amp;gt; void
+dodajBiletZOsoba() -&amp;gt; boolean
+equals(java.lang.Object) -&amp;gt; boolean
+escape(java.lang.String) -&amp;gt; class java.lang.String
+escape(java.lang.String, char, java.lang.String) -&amp;gt; class java.lang.String
+exception(fit.Parse, java.lang.Throwable) -&amp;gt; void
+execute() -&amp;gt; void
+getArgs() -&amp;gt; class [Ljava.lang.String;
+getArgsForTable(fit.Parse) -&amp;gt; void
+getClass() -&amp;gt; class java.lang.Class
+getSymbol(java.lang.String) -&amp;gt; class java.lang.Object
+gray(java.lang.String) -&amp;gt; class java.lang.String
+handleBlankCell(fit.Parse, fit.TypeAdapter) -&amp;gt; void
+hasParseMethod(java.lang.Class) -&amp;gt; boolean
+hasSymbol(java.lang.String) -&amp;gt; boolean
+hashCode() -&amp;gt; int
+ignore(fit.Parse) -&amp;gt; void
+isFriendlyException(java.lang.Throwable) -&amp;gt; boolean
+label(java.lang.String) -&amp;gt; class java.lang.String
+loadFixture(java.lang.String) -&amp;gt; class fit.Fixture
+notify() -&amp;gt; void
+notifyAll() -&amp;gt; void
+parse(java.lang.String, java.lang.Class) -&amp;gt; class java.lang.Object
+reset() -&amp;gt; void
+right(fit.Parse) -&amp;gt; void
+setForcedAbort(boolean) -&amp;gt; void
+setSymbol(java.lang.String, java.lang.Object) -&amp;gt; void
+toString() -&amp;gt; class java.lang.String
+wait() -&amp;gt; void
+wait(long) -&amp;gt; void
+wait(long, int) -&amp;gt; void
+wrong(fit.Parse) -&amp;gt; void
+wrong(fit.Parse, java.lang.String) -&amp;gt; void&lt;/span&gt;&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor0"&gt;
+		&lt;td&gt;2 &lt;span class="error"&gt;No Method setIdOsoby[1] in class testyfitnessfixture.DodawanieBiletuZOsoba.
+ Available methods:
+ClearSymbols() -&amp;gt; void
+callParseMethod(java.lang.Class, java.lang.String) -&amp;gt; class java.lang.Object
+camel(java.lang.String) -&amp;gt; class java.lang.String
+check(fit.Parse, fit.TypeAdapter) -&amp;gt; void
+counts() -&amp;gt; class java.lang.String
+doCell(fit.Parse, int) -&amp;gt; void
+doCells(fit.Parse) -&amp;gt; void
+doRow(fit.Parse) -&amp;gt; void
+doRows(fit.Parse) -&amp;gt; void
+doTable(fit.Parse) -&amp;gt; void
+doTables(fit.Parse) -&amp;gt; void
+dodajBiletZOsoba() -&amp;gt; boolean
+equals(java.lang.Object) -&amp;gt; boolean
+escape(java.lang.String) -&amp;gt; class java.lang.String
+escape(java.lang.String, char, java.lang.String) -&amp;gt; class java.lang.String
+exception(fit.Parse, java.lang.Throwable) -&amp;gt; void
+execute() -&amp;gt; void
+getArgs() -&amp;gt; class [Ljava.lang.String;
+getArgsForTable(fit.Parse) -&amp;gt; void
+getClass() -&amp;gt; class java.lang.Class
+getSymbol(java.lang.String) -&amp;gt; class java.lang.Object
+gray(java.lang.String) -&amp;gt; class java.lang.String
+handleBlankCell(fit.Parse, fit.TypeAdapter) -&amp;gt; void
+hasParseMethod(java.lang.Class) -&amp;gt; boolean
+hasSymbol(java.lang.String) -&amp;gt; boolean
+hashCode() -&amp;gt; int
+ignore(fit.Parse) -&amp;gt; void
+isFriendlyException(java.lang.Throwable) -&amp;gt; boolean
+label(java.lang.String) -&amp;gt; class java.lang.String
+loadFixture(java.lang.String) -&amp;gt; class fit.Fixture
+notify() -&amp;gt; void
+notifyAll() -&amp;gt; void
+parse(java.lang.String, java.lang.Class) -&amp;gt; class java.lang.Object
+reset() -&amp;gt; void
+right(fit.Parse) -&amp;gt; void
+setForcedAbort(boolean) -&amp;gt; void
+setSymbol(java.lang.String, java.lang.Object) -&amp;gt; void
+toString() -&amp;gt; class java.lang.String
+wait() -&amp;gt; void
+wait(long) -&amp;gt; void
+wait(long, int) -&amp;gt; void
+wrong(fit.Parse) -&amp;gt; void
+wrong(fit.Parse, java.lang.String) -&amp;gt; void&lt;/span&gt;&lt;/td&gt;
+		&lt;td&gt;200 &lt;span class="error"&gt;No Method setNrBiletu[1] in class testyfitnessfixture.DodawanieBiletuZOsoba.
+ Available methods:
+ClearSymbols() -&amp;gt; void
+callParseMethod(java.lang.Class, java.lang.String) -&amp;gt; class java.lang.Object
+camel(java.lang.String) -&amp;gt; class java.lang.String
+check(fit.Parse, fit.TypeAdapter) -&amp;gt; void
+counts() -&amp;gt; class java.lang.String
+doCell(fit.Parse, int) -&amp;gt; void
+doCells(fit.Parse) -&amp;gt; void
+doRow(fit.Parse) -&amp;gt; void
+doRows(fit.Parse) -&amp;gt; void
+doTable(fit.Parse) -&amp;gt; void
+doTables(fit.Parse) -&amp;gt; void
+dodajBiletZOsoba() -&amp;gt; boolean
+equals(java.lang.Object) -&amp;gt; boolean
+escape(java.lang.String) -&amp;gt; class java.lang.String
+escape(java.lang.String, char, java.lang.String) -&amp;gt; class java.lang.String
+exception(fit.Parse, java.lang.Throwable) -&amp;gt; void
+execute() -&amp;gt; void
+getArgs() -&amp;gt; class [Ljava.lang.String;
+getArgsForTable(fit.Parse) -&amp;gt; void
+getClass() -&amp;gt; class java.lang.Class
+getSymbol(java.lang.String) -&amp;gt; class java.lang.Object
+gray(java.lang.String) -&amp;gt; class java.lang.String
+handleBlankCell(fit.Parse, fit.TypeAdapter) -&amp;gt; void
+hasParseMethod(java.lang.Class) -&amp;gt; boolean
+hasSymbol(java.lang.String) -&amp;gt; boolean
+hashCode() -&amp;gt; int
+ignore(fit.Parse) -&amp;gt; void
+isFriendlyException(java.lang.Throwable) -&amp;gt; boolean
+label(java.lang.String) -&amp;gt; class java.lang.String
+loadFixture(java.lang.String) -&amp;gt; class fit.Fixture
+notify() -&amp;gt; void
+notifyAll() -&amp;gt; void
+parse(java.lang.String, java.lang.Class) -&amp;gt; class java.lang.Object
+reset() -&amp;gt; void
+right(fit.Parse) -&amp;gt; void
+setForcedAbort(boolean) -&amp;gt; void
+setSymbol(java.lang.String, java.lang.Object) -&amp;gt; void
+toString() -&amp;gt; class java.lang.String
+wait() -&amp;gt; void
+wait(long) -&amp;gt; void
+wait(long, int) -&amp;gt; void
+wrong(fit.Parse) -&amp;gt; void
+wrong(fit.Parse, java.lang.String) -&amp;gt; void&lt;/span&gt;&lt;/td&gt;
+		&lt;td&gt;true &lt;span class="error"&gt;No Method setImiennosc[1] in class testyfitnessfixture.DodawanieBiletuZOsoba.
+ Available methods:
+ClearSymbols() -&amp;gt; void
+callParseMethod(java.lang.Class, java.lang.String) -&amp;gt; class java.lang.Object
+camel(java.lang.String) -&amp;gt; class java.lang.String
+check(fit.Parse, fit.TypeAdapter) -&amp;gt; void
+counts() -&amp;gt; class java.lang.String
+doCell(fit.Parse, int) -&amp;gt; void
+doCells(fit.Parse) -&amp;gt; void
+doRow(fit.Parse) -&amp;gt; void
+doRows(fit.Parse) -&amp;gt; void
+doTable(fit.Parse) -&amp;gt; void
+doTables(fit.Parse) -&amp;gt; void
+dodajBiletZOsoba() -&amp;gt; boolean
+equals(java.lang.Object) -&amp;gt; boolean
+escape(java.lang.String) -&amp;gt; class java.lang.String
+escape(java.lang.String, char, java.lang.String) -&amp;gt; class java.lang.String
+exception(fit.Parse, java.lang.Throwable) -&amp;gt; void
+execute() -&amp;gt; void
+getArgs() -&amp;gt; class [Ljava.lang.String;
+getArgsForTable(fit.Parse) -&amp;gt; void
+getClass() -&amp;gt; class java.lang.Class
+getSymbol(java.lang.String) -&amp;gt; class java.lang.Object
+gray(java.lang.String) -&amp;gt; class java.lang.String
+handleBlankCell(fit.Parse, fit.TypeAdapter) -&amp;gt; void
+hasParseMethod(java.lang.Class) -&amp;gt; boolean
+hasSymbol(java.lang.String) -&amp;gt; boolean
+hashCode() -&amp;gt; int
+ignore(fit.Parse) -&amp;gt; void
+isFriendlyException(java.lang.Throwable) -&amp;gt; boolean
+label(java.lang.String) -&amp;gt; class java.lang.String
+loadFixture(java.lang.String) -&amp;gt; class fit.Fixture
+notify() -&amp;gt; void
+notifyAll() -&amp;gt; void
+parse(java.lang.String, java.lang.Class) -&amp;gt; class java.lang.Object
+reset() -&amp;gt; void
+right(fit.Parse) -&amp;gt; void
+setForcedAbort(boolean) -&amp;gt; void
+setSymbol(java.lang.String, java.lang.Object) -&amp;gt; void
+toString() -&amp;gt; class java.lang.String
+wait() -&amp;gt; void
+wait(long) -&amp;gt; void
+wait(long, int) -&amp;gt; void
+wrong(fit.Parse) -&amp;gt; void
+wrong(fit.Parse, java.lang.String) -&amp;gt; void&lt;/span&gt;&lt;/td&gt;
+		&lt;td&gt;false &lt;span class="error"&gt;No Method setUlga[1] in class testyfitnessfixture.DodawanieBiletuZOsoba.
+ Available methods:
+ClearSymbols() -&amp;gt; void
+callParseMethod(java.lang.Class, java.lang.String) -&amp;gt; class java.lang.Object
+camel(java.lang.String) -&amp;gt; class java.lang.String
+check(fit.Parse, fit.TypeAdapter) -&amp;gt; void
+counts() -&amp;gt; class java.lang.String
+doCell(fit.Parse, int) -&amp;gt; void
+doCells(fit.Parse) -&amp;gt; void
+doRow(fit.Parse) -&amp;gt; void
+doRows(fit.Parse) -&amp;gt; void
+doTable(fit.Parse) -&amp;gt; void
+doTables(fit.Parse) -&amp;gt; void
+dodajBiletZOsoba() -&amp;gt; boolean
+equals(java.lang.Object) -&amp;gt; boolean
+escape(java.lang.String) -&amp;gt; class java.lang.String
+escape(java.lang.String, char, java.lang.String) -&amp;gt; class java.lang.String
+exception(fit.Parse, java.lang.Throwable) -&amp;gt; void
+execute() -&amp;gt; void
+getArgs() -&amp;gt; class [Ljava.lang.String;
+getArgsForTable(fit.Parse) -&amp;gt; void
+getClass() -&amp;gt; class java.lang.Class
+getSymbol(java.lang.String) -&amp;gt; class java.lang.Object
+gray(java.lang.String) -&amp;gt; class java.lang.String
+handleBlankCell(fit.Parse, fit.TypeAdapter) -&amp;gt; void
+hasParseMethod(java.lang.Class) -&amp;gt; boolean
+hasSymbol(java.lang.String) -&amp;gt; boolean
+hashCode() -&amp;gt; int
+ignore(fit.Parse) -&amp;gt; void
+isFriendlyException(java.lang.Throwable) -&amp;gt; boolean
+label(java.lang.String) -&amp;gt; class java.lang.String
+loadFixture(java.lang.String) -&amp;gt; class fit.Fixture
+notify() -&amp;gt; void
+notifyAll() -&amp;gt; void
+parse(java.lang.String, java.lang.Class) -&amp;gt; class java.lang.Object
+reset() -&amp;gt; void
+right(fit.Parse) -&amp;gt; void
+setForcedAbort(boolean) -&amp;gt; void
+setSymbol(java.lang.String, java.lang.Object) -&amp;gt; void
+toString() -&amp;gt; class java.lang.String
+wait() -&amp;gt; void
+wait(long) -&amp;gt; void
+wait(long, int) -&amp;gt; void
+wrong(fit.Parse) -&amp;gt; void
+wrong(fit.Parse, java.lang.String) -&amp;gt; void&lt;/span&gt;&lt;/td&gt;
+		&lt;td&gt;2025-01-15T10:30:00 &lt;span class="error"&gt;No Method setDataWaznosci[1] in class testyfitnessfixture.DodawanieBiletuZOsoba.
+ Available methods:
+ClearSymbols() -&amp;gt; void
+callParseMethod(java.lang.Class, java.lang.String) -&amp;gt; class java.lang.Object
+camel(java.lang.String) -&amp;gt; class java.lang.String
+check(fit.Parse, fit.TypeAdapter) -&amp;gt; void
+counts() -&amp;gt; class java.lang.String
+doCell(fit.Parse, int) -&amp;gt; void
+doCells(fit.Parse) -&amp;gt; void
+doRow(fit.Parse) -&amp;gt; void
+doRows(fit.Parse) -&amp;gt; void
+doTable(fit.Parse) -&amp;gt; void
+doTables(fit.Parse) -&amp;gt; void
+dodajBiletZOsoba() -&amp;gt; boolean
+equals(java.lang.Object) -&amp;gt; boolean
+escape(java.lang.String) -&amp;gt; class java.lang.String
+escape(java.lang.String, char, java.lang.String) -&amp;gt; class java.lang.String
+exception(fit.Parse, java.lang.Throwable) -&amp;gt; void
+execute() -&amp;gt; void
+getArgs() -&amp;gt; class [Ljava.lang.String;
+getArgsForTable(fit.Parse) -&amp;gt; void
+getClass() -&amp;gt; class java.lang.Class
+getSymbol(java.lang.String) -&amp;gt; class java.lang.Object
+gray(java.lang.String) -&amp;gt; class java.lang.String
+handleBlankCell(fit.Parse, fit.TypeAdapter) -&amp;gt; void
+hasParseMethod(java.lang.Class) -&amp;gt; boolean
+hasSymbol(java.lang.String) -&amp;gt; boolean
+hashCode() -&amp;gt; int
+ignore(fit.Parse) -&amp;gt; void
+isFriendlyException(java.lang.Throwable) -&amp;gt; boolean
+label(java.lang.String) -&amp;gt; class java.lang.String
+loadFixture(java.lang.String) -&amp;gt; class fit.Fixture
+notify() -&amp;gt; void
+notifyAll() -&amp;gt; void
+parse(java.lang.String, java.lang.Class) -&amp;gt; class java.lang.Object
+reset() -&amp;gt; void
+right(fit.Parse) -&amp;gt; void
+setForcedAbort(boolean) -&amp;gt; void
+setSymbol(java.lang.String, java.lang.Object) -&amp;gt; void
+toString() -&amp;gt; class java.lang.String
+wait() -&amp;gt; void
+wait(long) -&amp;gt; void
+wait(long, int) -&amp;gt; void
+wrong(fit.Parse) -&amp;gt; void
+wrong(fit.Parse, java.lang.String) -&amp;gt; void&lt;/span&gt;&lt;/td&gt;
+		&lt;td&gt;true &lt;span class="error"&gt;No Method setDodajBiletZOsoba[1] in class testyfitnessfixture.DodawanieBiletuZOsoba.
+ Available methods:
+ClearSymbols() -&amp;gt; void
+callParseMethod(java.lang.Class, java.lang.String) -&amp;gt; class java.lang.Object
+camel(java.lang.String) -&amp;gt; class java.lang.String
+check(fit.Parse, fit.TypeAdapter) -&amp;gt; void
+counts() -&amp;gt; class java.lang.String
+doCell(fit.Parse, int) -&amp;gt; void
+doCells(fit.Parse) -&amp;gt; void
+doRow(fit.Parse) -&amp;gt; void
+doRows(fit.Parse) -&amp;gt; void
+doTable(fit.Parse) -&amp;gt; void
+doTables(fit.Parse) -&amp;gt; void
+dodajBiletZOsoba() -&amp;gt; boolean
+equals(java.lang.Object) -&amp;gt; boolean
+escape(java.lang.String) -&amp;gt; class java.lang.String
+escape(java.lang.String, char, java.lang.String) -&amp;gt; class java.lang.String
+exception(fit.Parse, java.lang.Throwable) -&amp;gt; void
+execute() -&amp;gt; void
+getArgs() -&amp;gt; class [Ljava.lang.String;
+getArgsForTable(fit.Parse) -&amp;gt; void
+getClass() -&amp;gt; class java.lang.Class
+getSymbol(java.lang.String) -&amp;gt; class java.lang.Object
+gray(java.lang.String) -&amp;gt; class java.lang.String
+handleBlankCell(fit.Parse, fit.TypeAdapter) -&amp;gt; void
+hasParseMethod(java.lang.Class) -&amp;gt; boolean
+hasSymbol(java.lang.String) -&amp;gt; boolean
+hashCode() -&amp;gt; int
+ignore(fit.Parse) -&amp;gt; void
+isFriendlyException(java.lang.Throwable) -&amp;gt; boolean
+label(java.lang.String) -&amp;gt; class java.lang.String
+loadFixture(java.lang.String) -&amp;gt; class fit.Fixture
+notify() -&amp;gt; void
+notifyAll() -&amp;gt; void
+parse(java.lang.String, java.lang.Class) -&amp;gt; class java.lang.Object
+reset() -&amp;gt; void
+right(fit.Parse) -&amp;gt; void
+setForcedAbort(boolean) -&amp;gt; void
+setSymbol(java.lang.String, java.lang.Object) -&amp;gt; void
+toString() -&amp;gt; class java.lang.String
+wait() -&amp;gt; void
+wait(long) -&amp;gt; void
+wait(long, int) -&amp;gt; void
+wrong(fit.Parse) -&amp;gt; void
+wrong(fit.Parse, java.lang.String) -&amp;gt; void&lt;/span&gt;&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor1"&gt;
+		&lt;td&gt;3 &lt;span class="error"&gt;No Method setIdOsoby[1] in class testyfitnessfixture.DodawanieBiletuZOsoba.
+ Available methods:
+ClearSymbols() -&amp;gt; void
+callParseMethod(java.lang.Class, java.lang.String) -&amp;gt; class java.lang.Object
+camel(java.lang.String) -&amp;gt; class java.lang.String
+check(fit.Parse, fit.TypeAdapter) -&amp;gt; void
+counts() -&amp;gt; class java.lang.String
+doCell(fit.Parse, int) -&amp;gt; void
+doCells(fit.Parse) -&amp;gt; void
+doRow(fit.Parse) -&amp;gt; void
+doRows(fit.Parse) -&amp;gt; void
+doTable(fit.Parse) -&amp;gt; void
+doTables(fit.Parse) -&amp;gt; void
+dodajBiletZOsoba() -&amp;gt; boolean
+equals(java.lang.Object) -&amp;gt; boolean
+escape(java.lang.String) -&amp;gt; class java.lang.String
+escape(java.lang.String, char, java.lang.String) -&amp;gt; class java.lang.String
+exception(fit.Parse, java.lang.Throwable) -&amp;gt; void
+execute() -&amp;gt; void
+getArgs() -&amp;gt; class [Ljava.lang.String;
+getArgsForTable(fit.Parse) -&amp;gt; void
+getClass() -&amp;gt; class java.lang.Class
+getSymbol(java.lang.String) -&amp;gt; class java.lang.Object
+gray(java.lang.String) -&amp;gt; class java.lang.String
+handleBlankCell(fit.Parse, fit.TypeAdapter) -&amp;gt; void
+hasParseMethod(java.lang.Class) -&amp;gt; boolean
+hasSymbol(java.lang.String) -&amp;gt; boolean
+hashCode() -&amp;gt; int
+ignore(fit.Parse) -&amp;gt; void
+isFriendlyException(java.lang.Throwable) -&amp;gt; boolean
+label(java.lang.String) -&amp;gt; class java.lang.String
+loadFixture(java.lang.String) -&amp;gt; class fit.Fixture
+notify() -&amp;gt; void
+notifyAll() -&amp;gt; void
+parse(java.lang.String, java.lang.Class) -&amp;gt; class java.lang.Object
+reset() -&amp;gt; void
+right(fit.Parse) -&amp;gt; void
+setForcedAbort(boolean) -&amp;gt; void
+setSymbol(java.lang.String, java.lang.Object) -&amp;gt; void
+toString() -&amp;gt; class java.lang.String
+wait() -&amp;gt; void
+wait(long) -&amp;gt; void
+wait(long, int) -&amp;gt; void
+wrong(fit.Parse) -&amp;gt; void
+wrong(fit.Parse, java.lang.String) -&amp;gt; void&lt;/span&gt;&lt;/td&gt;
+		&lt;td&gt;300 &lt;span class="error"&gt;No Method setNrBiletu[1] in class testyfitnessfixture.DodawanieBiletuZOsoba.
+ Available methods:
+ClearSymbols() -&amp;gt; void
+callParseMethod(java.lang.Class, java.lang.String) -&amp;gt; class java.lang.Object
+camel(java.lang.String) -&amp;gt; class java.lang.String
+check(fit.Parse, fit.TypeAdapter) -&amp;gt; void
+counts() -&amp;gt; class java.lang.String
+doCell(fit.Parse, int) -&amp;gt; void
+doCells(fit.Parse) -&amp;gt; void
+doRow(fit.Parse) -&amp;gt; void
+doRows(fit.Parse) -&amp;gt; void
+doTable(fit.Parse) -&amp;gt; void
+doTables(fit.Parse) -&amp;gt; void
+dodajBiletZOsoba() -&amp;gt; boolean
+equals(java.lang.Object) -&amp;gt; boolean
+escape(java.lang.String) -&amp;gt; class java.lang.String
+escape(java.lang.String, char, java.lang.String) -&amp;gt; class java.lang.String
+exception(fit.Parse, java.lang.Throwable) -&amp;gt; void
+execute() -&amp;gt; void
+getArgs() -&amp;gt; class [Ljava.lang.String;
+getArgsForTable(fit.Parse) -&amp;gt; void
+getClass() -&amp;gt; class java.lang.Class
+getSymbol(java.lang.String) -&amp;gt; class java.lang.Object
+gray(java.lang.String) -&amp;gt; class java.lang.String
+handleBlankCell(fit.Parse, fit.TypeAdapter) -&amp;gt; void
+hasParseMethod(java.lang.Class) -&amp;gt; boolean
+hasSymbol(java.lang.String) -&amp;gt; boolean
+hashCode() -&amp;gt; int
+ignore(fit.Parse) -&amp;gt; void
+isFriendlyException(java.lang.Throwable) -&amp;gt; boolean
+label(java.lang.String) -&amp;gt; class java.lang.String
+loadFixture(java.lang.String) -&amp;gt; class fit.Fixture
+notify() -&amp;gt; void
+notifyAll() -&amp;gt; void
+parse(java.lang.String, java.lang.Class) -&amp;gt; class java.lang.Object
+reset() -&amp;gt; void
+right(fit.Parse) -&amp;gt; void
+setForcedAbort(boolean) -&amp;gt; void
+setSymbol(java.lang.String, java.lang.Object) -&amp;gt; void
+toString() -&amp;gt; class java.lang.String
+wait() -&amp;gt; void
+wait(long) -&amp;gt; void
+wait(long, int) -&amp;gt; void
+wrong(fit.Parse) -&amp;gt; void
+wrong(fit.Parse, java.lang.String) -&amp;gt; void&lt;/span&gt;&lt;/td&gt;
+		&lt;td&gt;false &lt;span class="error"&gt;No Method setImiennosc[1] in class testyfitnessfixture.DodawanieBiletuZOsoba.
+ Available methods:
+ClearSymbols() -&amp;gt; void
+callParseMethod(java.lang.Class, java.lang.String) -&amp;gt; class java.lang.Object
+camel(java.lang.String) -&amp;gt; class java.lang.String
+check(fit.Parse, fit.TypeAdapter) -&amp;gt; void
+counts() -&amp;gt; class java.lang.String
+doCell(fit.Parse, int) -&amp;gt; void
+doCells(fit.Parse) -&amp;gt; void
+doRow(fit.Parse) -&amp;gt; void
+doRows(fit.Parse) -&amp;gt; void
+doTable(fit.Parse) -&amp;gt; void
+doTables(fit.Parse) -&amp;gt; void
+dodajBiletZOsoba() -&amp;gt; boolean
+equals(java.lang.Object) -&amp;gt; boolean
+escape(java.lang.String) -&amp;gt; class java.lang.String
+escape(java.lang.String, char, java.lang.String) -&amp;gt; class java.lang.String
+exception(fit.Parse, java.lang.Throwable) -&amp;gt; void
+execute() -&amp;gt; void
+getArgs() -&amp;gt; class [Ljava.lang.String;
+getArgsForTable(fit.Parse) -&amp;gt; void
+getClass() -&amp;gt; class java.lang.Class
+getSymbol(java.lang.String) -&amp;gt; class java.lang.Object
+gray(java.lang.String) -&amp;gt; class java.lang.String
+handleBlankCell(fit.Parse, fit.TypeAdapter) -&amp;gt; void
+hasParseMethod(java.lang.Class) -&amp;gt; boolean
+hasSymbol(java.lang.String) -&amp;gt; boolean
+hashCode() -&amp;gt; int
+ignore(fit.Parse) -&amp;gt; void
+isFriendlyException(java.lang.Throwable) -&amp;gt; boolean
+label(java.lang.String) -&amp;gt; class java.lang.String
+loadFixture(java.lang.String) -&amp;gt; class fit.Fixture
+notify() -&amp;gt; void
+notifyAll() -&amp;gt; void
+parse(java.lang.String, java.lang.Class) -&amp;gt; class java.lang.Object
+reset() -&amp;gt; void
+right(fit.Parse) -&amp;gt; void
+setForcedAbort(boolean) -&amp;gt; void
+setSymbol(java.lang.String, java.lang.Object) -&amp;gt; void
+toString() -&amp;gt; class java.lang.String
+wait() -&amp;gt; void
+wait(long) -&amp;gt; void
+wait(long, int) -&amp;gt; void
+wrong(fit.Parse) -&amp;gt; void
+wrong(fit.Parse, java.lang.String) -&amp;gt; void&lt;/span&gt;&lt;/td&gt;
+		&lt;td&gt;true &lt;span class="error"&gt;No Method setUlga[1] in class testyfitnessfixture.DodawanieBiletuZOsoba.
+ Available methods:
+ClearSymbols() -&amp;gt; void
+callParseMethod(java.lang.Class, java.lang.String) -&amp;gt; class java.lang.Object
+camel(java.lang.String) -&amp;gt; class java.lang.String
+check(fit.Parse, fit.TypeAdapter) -&amp;gt; void
+counts() -&amp;gt; class java.lang.String
+doCell(fit.Parse, int) -&amp;gt; void
+doCells(fit.Parse) -&amp;gt; void
+doRow(fit.Parse) -&amp;gt; void
+doRows(fit.Parse) -&amp;gt; void
+doTable(fit.Parse) -&amp;gt; void
+doTables(fit.Parse) -&amp;gt; void
+dodajBiletZOsoba() -&amp;gt; boolean
+equals(java.lang.Object) -&amp;gt; boolean
+escape(java.lang.String) -&amp;gt; class java.lang.String
+escape(java.lang.String, char, java.lang.String) -&amp;gt; class java.lang.String
+exception(fit.Parse, java.lang.Throwable) -&amp;gt; void
+execute() -&amp;gt; void
+getArgs() -&amp;gt; class [Ljava.lang.String;
+getArgsForTable(fit.Parse) -&amp;gt; void
+getClass() -&amp;gt; class java.lang.Class
+getSymbol(java.lang.String) -&amp;gt; class java.lang.Object
+gray(java.lang.String) -&amp;gt; class java.lang.String
+handleBlankCell(fit.Parse, fit.TypeAdapter) -&amp;gt; void
+hasParseMethod(java.lang.Class) -&amp;gt; boolean
+hasSymbol(java.lang.String) -&amp;gt; boolean
+hashCode() -&amp;gt; int
+ignore(fit.Parse) -&amp;gt; void
+isFriendlyException(java.lang.Throwable) -&amp;gt; boolean
+label(java.lang.String) -&amp;gt; class java.lang.String
+loadFixture(java.lang.String) -&amp;gt; class fit.Fixture
+notify() -&amp;gt; void
+notifyAll() -&amp;gt; void
+parse(java.lang.String, java.lang.Class) -&amp;gt; class java.lang.Object
+reset() -&amp;gt; void
+right(fit.Parse) -&amp;gt; void
+setForcedAbort(boolean) -&amp;gt; void
+setSymbol(java.lang.String, java.lang.Object) -&amp;gt; void
+toString() -&amp;gt; class java.lang.String
+wait() -&amp;gt; void
+wait(long) -&amp;gt; void
+wait(long, int) -&amp;gt; void
+wrong(fit.Parse) -&amp;gt; void
+wrong(fit.Parse, java.lang.String) -&amp;gt; void&lt;/span&gt;&lt;/td&gt;
+		&lt;td&gt;2025-05-10T08:00:00 &lt;span class="error"&gt;No Method setDataWaznosci[1] in class testyfitnessfixture.DodawanieBiletuZOsoba.
+ Available methods:
+ClearSymbols() -&amp;gt; void
+callParseMethod(java.lang.Class, java.lang.String) -&amp;gt; class java.lang.Object
+camel(java.lang.String) -&amp;gt; class java.lang.String
+check(fit.Parse, fit.TypeAdapter) -&amp;gt; void
+counts() -&amp;gt; class java.lang.String
+doCell(fit.Parse, int) -&amp;gt; void
+doCells(fit.Parse) -&amp;gt; void
+doRow(fit.Parse) -&amp;gt; void
+doRows(fit.Parse) -&amp;gt; void
+doTable(fit.Parse) -&amp;gt; void
+doTables(fit.Parse) -&amp;gt; void
+dodajBiletZOsoba() -&amp;gt; boolean
+equals(java.lang.Object) -&amp;gt; boolean
+escape(java.lang.String) -&amp;gt; class java.lang.String
+escape(java.lang.String, char, java.lang.String) -&amp;gt; class java.lang.String
+exception(fit.Parse, java.lang.Throwable) -&amp;gt; void
+execute() -&amp;gt; void
+getArgs() -&amp;gt; class [Ljava.lang.String;
+getArgsForTable(fit.Parse) -&amp;gt; void
+getClass() -&amp;gt; class java.lang.Class
+getSymbol(java.lang.String) -&amp;gt; class java.lang.Object
+gray(java.lang.String) -&amp;gt; class java.lang.String
+handleBlankCell(fit.Parse, fit.TypeAdapter) -&amp;gt; void
+hasParseMethod(java.lang.Class) -&amp;gt; boolean
+hasSymbol(java.lang.String) -&amp;gt; boolean
+hashCode() -&amp;gt; int
+ignore(fit.Parse) -&amp;gt; void
+isFriendlyException(java.lang.Throwable) -&amp;gt; boolean
+label(java.lang.String) -&amp;gt; class java.lang.String
+loadFixture(java.lang.String) -&amp;gt; class fit.Fixture
+notify() -&amp;gt; void
+notifyAll() -&amp;gt; void
+parse(java.lang.String, java.lang.Class) -&amp;gt; class java.lang.Object
+reset() -&amp;gt; void
+right(fit.Parse) -&amp;gt; void
+setForcedAbort(boolean) -&amp;gt; void
+setSymbol(java.lang.String, java.lang.Object) -&amp;gt; void
+toString() -&amp;gt; class java.lang.String
+wait() -&amp;gt; void
+wait(long) -&amp;gt; void
+wait(long, int) -&amp;gt; void
+wrong(fit.Parse) -&amp;gt; void
+wrong(fit.Parse, java.lang.String) -&amp;gt; void&lt;/span&gt;&lt;/td&gt;
+		&lt;td&gt;true &lt;span class="error"&gt;No Method setDodajBiletZOsoba[1] in class testyfitnessfixture.DodawanieBiletuZOsoba.
+ Available methods:
+ClearSymbols() -&amp;gt; void
+callParseMethod(java.lang.Class, java.lang.String) -&amp;gt; class java.lang.Object
+camel(java.lang.String) -&amp;gt; class java.lang.String
+check(fit.Parse, fit.TypeAdapter) -&amp;gt; void
+counts() -&amp;gt; class java.lang.String
+doCell(fit.Parse, int) -&amp;gt; void
+doCells(fit.Parse) -&amp;gt; void
+doRow(fit.Parse) -&amp;gt; void
+doRows(fit.Parse) -&amp;gt; void
+doTable(fit.Parse) -&amp;gt; void
+doTables(fit.Parse) -&amp;gt; void
+dodajBiletZOsoba() -&amp;gt; boolean
+equals(java.lang.Object) -&amp;gt; boolean
+escape(java.lang.String) -&amp;gt; class java.lang.String
+escape(java.lang.String, char, java.lang.String) -&amp;gt; class java.lang.String
+exception(fit.Parse, java.lang.Throwable) -&amp;gt; void
+execute() -&amp;gt; void
+getArgs() -&amp;gt; class [Ljava.lang.String;
+getArgsForTable(fit.Parse) -&amp;gt; void
+getClass() -&amp;gt; class java.lang.Class
+getSymbol(java.lang.String) -&amp;gt; class java.lang.Object
+gray(java.lang.String) -&amp;gt; class java.lang.String
+handleBlankCell(fit.Parse, fit.TypeAdapter) -&amp;gt; void
+hasParseMethod(java.lang.Class) -&amp;gt; boolean
+hasSymbol(java.lang.String) -&amp;gt; boolean
+hashCode() -&amp;gt; int
+ignore(fit.Parse) -&amp;gt; void
+isFriendlyException(java.lang.Throwable) -&amp;gt; boolean
+label(java.lang.String) -&amp;gt; class java.lang.String
+loadFixture(java.lang.String) -&amp;gt; class fit.Fixture
+notify() -&amp;gt; void
+notifyAll() -&amp;gt; void
+parse(java.lang.String, java.lang.Class) -&amp;gt; class java.lang.Object
+reset() -&amp;gt; void
+right(fit.Parse) -&amp;gt; void
+setForcedAbort(boolean) -&amp;gt; void
+setSymbol(java.lang.String, java.lang.Object) -&amp;gt; void
+toString() -&amp;gt; class java.lang.String
+wait() -&amp;gt; void
+wait(long) -&amp;gt; void
+wait(long, int) -&amp;gt; void
+wrong(fit.Parse) -&amp;gt; void
+wrong(fit.Parse, java.lang.String) -&amp;gt; void&lt;/span&gt;&lt;/td&gt;
+	&lt;/tr&gt;
+&lt;/table&gt;
+</content>
+    <relativePageName>DodawanieBiletuZOsoba</relativePageName>
+    <instructions>
+      <instructionResult>
+        <instruction>{id='decisionTable_0_0', instruction='make', instanceName='decisionTable_0', className='testyfitnessfixture.SetUp', args=[]}</instruction>
+        <slimResult>pass(testyfitnessfixture.SetUp)</slimResult>
+        <expectation>
+          <status>pass</status>
+          <instructionId>decisionTable_0_0</instructionId>
+          <col>0</col>
+          <row>0</row>
+          <type>ConstructionExpectation</type>
+          <evaluationMessage>testyfitnessfixture.SetUp</evaluationMessage>
+        </expectation>
+      </instructionResult>
+      <instructionResult>
+        <instruction>{id='decisionTable_1_0', instruction='make', instanceName='decisionTable_1', className='testyfitnessfixture.DodawanieBiletuZOsoba', args=[]}</instruction>
+        <slimResult>pass(testyfitnessfixture.DodawanieBiletuZOsoba)</slimResult>
+        <expectation>
+          <status>pass</status>
+          <instructionId>decisionTable_1_0</instructionId>
+          <col>0</col>
+          <row>0</row>
+          <type>ConstructionExpectation</type>
+          <evaluationMessage>testyfitnessfixture.DodawanieBiletuZOsoba</evaluationMessage>
+        </expectation>
+      </instructionResult>
+      <instructionResult>
+        <instruction>{id='decisionTable_1_4', instruction='call', instanceName='decisionTable_1', methodName='setIdOsoby', args=[1]}</instruction>
+        <slimResult></slimResult>
+        <expectation>
+          <status>error</status>
+          <instructionId>decisionTable_1_4</instructionId>
+          <type>VoidReturnExpectation</type>
+          <evaluationMessage>No Method setIdOsoby[1] in class testyfitnessfixture.DodawanieBiletuZOsoba.
+ Available methods:
+ClearSymbols() -&gt; void
+callParseMethod(java.lang.Class, java.lang.String) -&gt; class java.lang.Object
+camel(java.lang.String) -&gt; class java.lang.String
+check(fit.Parse, fit.TypeAdapter) -&gt; void
+counts() -&gt; class java.lang.String
+doCell(fit.Parse, int) -&gt; void
+doCells(fit.Parse) -&gt; void
+doRow(fit.Parse) -&gt; void
+doRows(fit.Parse) -&gt; void
+doTable(fit.Parse) -&gt; void
+doTables(fit.Parse) -&gt; void
+dodajBiletZOsoba() -&gt; boolean
+equals(java.lang.Object) -&gt; boolean
+escape(java.lang.String) -&gt; class java.lang.String
+escape(java.lang.String, char, java.lang.String) -&gt; class java.lang.String
+exception(fit.Parse, java.lang.Throwable) -&gt; void
+execute() -&gt; void
+getArgs() -&gt; class [Ljava.lang.String;
+getArgsForTable(fit.Parse) -&gt; void
+getClass() -&gt; class java.lang.Class
+getSymbol(java.lang.String) -&gt; class java.lang.Object
+gray(java.lang.String) -&gt; class java.lang.String
+handleBlankCell(fit.Parse, fit.TypeAdapter) -&gt; void
+hasParseMethod(java.lang.Class) -&gt; boolean
+hasSymbol(java.lang.String) -&gt; boolean
+hashCode() -&gt; int
+ignore(fit.Parse) -&gt; void
+isFriendlyException(java.lang.Throwable) -&gt; boolean
+label(java.lang.String) -&gt; class java.lang.String
+loadFixture(java.lang.String) -&gt; class fit.Fixture
+notify() -&gt; void
+notifyAll() -&gt; void
+parse(java.lang.String, java.lang.Class) -&gt; class java.lang.Object
+reset() -&gt; void
+right(fit.Parse) -&gt; void
+setForcedAbort(boolean) -&gt; void
+setSymbol(java.lang.String, java.lang.Object) -&gt; void
+toString() -&gt; class java.lang.String
+wait() -&gt; void
+wait(long) -&gt; void
+wait(long, int) -&gt; void
+wrong(fit.Parse) -&gt; void
+wrong(fit.Parse, java.lang.String) -&gt; void</evaluationMessage>
+        </expectation>
+      </instructionResult>
+      <instructionResult>
+        <instruction>{id='decisionTable_1_5', instruction='call', instanceName='decisionTable_1', methodName='setNrBiletu', args=[100]}</instruction>
+        <slimResult></slimResult>
+        <expectation>
+          <status>error</status>
+          <instructionId>decisionTable_1_5</instructionId>
+          <type>VoidReturnExpectation</type>
+          <evaluationMessage>No Method setNrBiletu[1] in class testyfitnessfixture.DodawanieBiletuZOsoba.
+ Available methods:
+ClearSymbols() -&gt; void
+callParseMethod(java.lang.Class, java.lang.String) -&gt; class java.lang.Object
+camel(java.lang.String) -&gt; class java.lang.String
+check(fit.Parse, fit.TypeAdapter) -&gt; void
+counts() -&gt; class java.lang.String
+doCell(fit.Parse, int) -&gt; void
+doCells(fit.Parse) -&gt; void
+doRow(fit.Parse) -&gt; void
+doRows(fit.Parse) -&gt; void
+doTable(fit.Parse) -&gt; void
+doTables(fit.Parse) -&gt; void
+dodajBiletZOsoba() -&gt; boolean
+equals(java.lang.Object) -&gt; boolean
+escape(java.lang.String) -&gt; class java.lang.String
+escape(java.lang.String, char, java.lang.String) -&gt; class java.lang.String
+exception(fit.Parse, java.lang.Throwable) -&gt; void
+execute() -&gt; void
+getArgs() -&gt; class [Ljava.lang.String;
+getArgsForTable(fit.Parse) -&gt; void
+getClass() -&gt; class java.lang.Class
+getSymbol(java.lang.String) -&gt; class java.lang.Object
+gray(java.lang.String) -&gt; class java.lang.String
+handleBlankCell(fit.Parse, fit.TypeAdapter) -&gt; void
+hasParseMethod(java.lang.Class) -&gt; boolean
+hasSymbol(java.lang.String) -&gt; boolean
+hashCode() -&gt; int
+ignore(fit.Parse) -&gt; void
+isFriendlyException(java.lang.Throwable) -&gt; boolean
+label(java.lang.String) -&gt; class java.lang.String
+loadFixture(java.lang.String) -&gt; class fit.Fixture
+notify() -&gt; void
+notifyAll() -&gt; void
+parse(java.lang.String, java.lang.Class) -&gt; class java.lang.Object
+reset() -&gt; void
+right(fit.Parse) -&gt; void
+setForcedAbort(boolean) -&gt; void
+setSymbol(java.lang.String, java.lang.Object) -&gt; void
+toString() -&gt; class java.lang.String
+wait() -&gt; void
+wait(long) -&gt; void
+wait(long, int) -&gt; void
+wrong(fit.Parse) -&gt; void
+wrong(fit.Parse, java.lang.String) -&gt; void</evaluationMessage>
+        </expectation>
+      </instructionResult>
+      <instructionResult>
+        <instruction>{id='decisionTable_1_6', instruction='call', instanceName='decisionTable_1', methodName='setImiennosc', args=[true]}</instruction>
+        <slimResult></slimResult>
+        <expectation>
+          <status>error</status>
+          <instructionId>decisionTable_1_6</instructionId>
+          <type>VoidReturnExpectation</type>
+          <evaluationMessage>No Method setImiennosc[1] in class testyfitnessfixture.DodawanieBiletuZOsoba.
+ Available methods:
+ClearSymbols() -&gt; void
+callParseMethod(java.lang.Class, java.lang.String) -&gt; class java.lang.Object
+camel(java.lang.String) -&gt; class java.lang.String
+check(fit.Parse, fit.TypeAdapter) -&gt; void
+counts() -&gt; class java.lang.String
+doCell(fit.Parse, int) -&gt; void
+doCells(fit.Parse) -&gt; void
+doRow(fit.Parse) -&gt; void
+doRows(fit.Parse) -&gt; void
+doTable(fit.Parse) -&gt; void
+doTables(fit.Parse) -&gt; void
+dodajBiletZOsoba() -&gt; boolean
+equals(java.lang.Object) -&gt; boolean
+escape(java.lang.String) -&gt; class java.lang.String
+escape(java.lang.String, char, java.lang.String) -&gt; class java.lang.String
+exception(fit.Parse, java.lang.Throwable) -&gt; void
+execute() -&gt; void
+getArgs() -&gt; class [Ljava.lang.String;
+getArgsForTable(fit.Parse) -&gt; void
+getClass() -&gt; class java.lang.Class
+getSymbol(java.lang.String) -&gt; class java.lang.Object
+gray(java.lang.String) -&gt; class java.lang.String
+handleBlankCell(fit.Parse, fit.TypeAdapter) -&gt; void
+hasParseMethod(java.lang.Class) -&gt; boolean
+hasSymbol(java.lang.String) -&gt; boolean
+hashCode() -&gt; int
+ignore(fit.Parse) -&gt; void
+isFriendlyException(java.lang.Throwable) -&gt; boolean
+label(java.lang.String) -&gt; class java.lang.String
+loadFixture(java.lang.String) -&gt; class fit.Fixture
+notify() -&gt; void
+notifyAll() -&gt; void
+parse(java.lang.String, java.lang.Class) -&gt; class java.lang.Object
+reset() -&gt; void
+right(fit.Parse) -&gt; void
+setForcedAbort(boolean) -&gt; void
+setSymbol(java.lang.String, java.lang.Object) -&gt; void
+toString() -&gt; class java.lang.String
+wait() -&gt; void
+wait(long) -&gt; void
+wait(long, int) -&gt; void
+wrong(fit.Parse) -&gt; void
+wrong(fit.Parse, java.lang.String) -&gt; void</evaluationMessage>
+        </expectation>
+      </instructionResult>
+      <instructionResult>
+        <instruction>{id='decisionTable_1_7', instruction='call', instanceName='decisionTable_1', methodName='setUlga', args=[false]}</instruction>
+        <slimResult></slimResult>
+        <expectation>
+          <status>error</status>
+          <instructionId>decisionTable_1_7</instructionId>
+          <type>VoidReturnExpectation</type>
+          <evaluationMessage>No Method setUlga[1] in class testyfitnessfixture.DodawanieBiletuZOsoba.
+ Available methods:
+ClearSymbols() -&gt; void
+callParseMethod(java.lang.Class, java.lang.String) -&gt; class java.lang.Object
+camel(java.lang.String) -&gt; class java.lang.String
+check(fit.Parse, fit.TypeAdapter) -&gt; void
+counts() -&gt; class java.lang.String
+doCell(fit.Parse, int) -&gt; void
+doCells(fit.Parse) -&gt; void
+doRow(fit.Parse) -&gt; void
+doRows(fit.Parse) -&gt; void
+doTable(fit.Parse) -&gt; void
+doTables(fit.Parse) -&gt; void
+dodajBiletZOsoba() -&gt; boolean
+equals(java.lang.Object) -&gt; boolean
+escape(java.lang.String) -&gt; class java.lang.String
+escape(java.lang.String, char, java.lang.String) -&gt; class java.lang.String
+exception(fit.Parse, java.lang.Throwable) -&gt; void
+execute() -&gt; void
+getArgs() -&gt; class [Ljava.lang.String;
+getArgsForTable(fit.Parse) -&gt; void
+getClass() -&gt; class java.lang.Class
+getSymbol(java.lang.String) -&gt; class java.lang.Object
+gray(java.lang.String) -&gt; class java.lang.String
+handleBlankCell(fit.Parse, fit.TypeAdapter) -&gt; void
+hasParseMethod(java.lang.Class) -&gt; boolean
+hasSymbol(java.lang.String) -&gt; boolean
+hashCode() -&gt; int
+ignore(fit.Parse) -&gt; void
+isFriendlyException(java.lang.Throwable) -&gt; boolean
+label(java.lang.String) -&gt; class java.lang.String
+loadFixture(java.lang.String) -&gt; class fit.Fixture
+notify() -&gt; void
+notifyAll() -&gt; void
+parse(java.lang.String, java.lang.Class) -&gt; class java.lang.Object
+reset() -&gt; void
+right(fit.Parse) -&gt; void
+setForcedAbort(boolean) -&gt; void
+setSymbol(java.lang.String, java.lang.Object) -&gt; void
+toString() -&gt; class java.lang.String
+wait() -&gt; void
+wait(long) -&gt; void
+wait(long, int) -&gt; void
+wrong(fit.Parse) -&gt; void
+wrong(fit.Parse, java.lang.String) -&gt; void</evaluationMessage>
+        </expectation>
+      </instructionResult>
+      <instructionResult>
+        <instruction>{id='decisionTable_1_8', instruction='call', instanceName='decisionTable_1', methodName='setDataWaznosci', args=[2024-12-31T12:00:00]}</instruction>
+        <slimResult></slimResult>
+        <expectation>
+          <status>error</status>
+          <instructionId>decisionTable_1_8</instructionId>
+          <type>VoidReturnExpectation</type>
+          <evaluationMessage>No Method setDataWaznosci[1] in class testyfitnessfixture.DodawanieBiletuZOsoba.
+ Available methods:
+ClearSymbols() -&gt; void
+callParseMethod(java.lang.Class, java.lang.String) -&gt; class java.lang.Object
+camel(java.lang.String) -&gt; class java.lang.String
+check(fit.Parse, fit.TypeAdapter) -&gt; void
+counts() -&gt; class java.lang.String
+doCell(fit.Parse, int) -&gt; void
+doCells(fit.Parse) -&gt; void
+doRow(fit.Parse) -&gt; void
+doRows(fit.Parse) -&gt; void
+doTable(fit.Parse) -&gt; void
+doTables(fit.Parse) -&gt; void
+dodajBiletZOsoba() -&gt; boolean
+equals(java.lang.Object) -&gt; boolean
+escape(java.lang.String) -&gt; class java.lang.String
+escape(java.lang.String, char, java.lang.String) -&gt; class java.lang.String
+exception(fit.Parse, java.lang.Throwable) -&gt; void
+execute() -&gt; void
+getArgs() -&gt; class [Ljava.lang.String;
+getArgsForTable(fit.Parse) -&gt; void
+getClass() -&gt; class java.lang.Class
+getSymbol(java.lang.String) -&gt; class java.lang.Object
+gray(java.lang.String) -&gt; class java.lang.String
+handleBlankCell(fit.Parse, fit.TypeAdapter) -&gt; void
+hasParseMethod(java.lang.Class) -&gt; boolean
+hasSymbol(java.lang.String) -&gt; boolean
+hashCode() -&gt; int
+ignore(fit.Parse) -&gt; void
+isFriendlyException(java.lang.Throwable) -&gt; boolean
+label(java.lang.String) -&gt; class java.lang.String
+loadFixture(java.lang.String) -&gt; class fit.Fixture
+notify() -&gt; void
+notifyAll() -&gt; void
+parse(java.lang.String, java.lang.Class) -&gt; class java.lang.Object
+reset() -&gt; void
+right(fit.Parse) -&gt; void
+setForcedAbort(boolean) -&gt; void
+setSymbol(java.lang.String, java.lang.Object) -&gt; void
+toString() -&gt; class java.lang.String
+wait() -&gt; void
+wait(long) -&gt; void
+wait(long, int) -&gt; void
+wrong(fit.Parse) -&gt; void
+wrong(fit.Parse, java.lang.String) -&gt; void</evaluationMessage>
+        </expectation>
+      </instructionResult>
+      <instructionResult>
+        <instruction>{id='decisionTable_1_9', instruction='call', instanceName='decisionTable_1', methodName='setDodajBiletZOsoba', args=[true]}</instruction>
+        <slimResult></slimResult>
+        <expectation>
+          <status>error</status>
+          <instructionId>decisionTable_1_9</instructionId>
+          <type>VoidReturnExpectation</type>
+          <evaluationMessage>No Method setDodajBiletZOsoba[1] in class testyfitnessfixture.DodawanieBiletuZOsoba.
+ Available methods:
+ClearSymbols() -&gt; void
+callParseMethod(java.lang.Class, java.lang.String) -&gt; class java.lang.Object
+camel(java.lang.String) -&gt; class java.lang.String
+check(fit.Parse, fit.TypeAdapter) -&gt; void
+counts() -&gt; class java.lang.String
+doCell(fit.Parse, int) -&gt; void
+doCells(fit.Parse) -&gt; void
+doRow(fit.Parse) -&gt; void
+doRows(fit.Parse) -&gt; void
+doTable(fit.Parse) -&gt; void
+doTables(fit.Parse) -&gt; void
+dodajBiletZOsoba() -&gt; boolean
+equals(java.lang.Object) -&gt; boolean
+escape(java.lang.String) -&gt; class java.lang.String
+escape(java.lang.String, char, java.lang.String) -&gt; class java.lang.String
+exception(fit.Parse, java.lang.Throwable) -&gt; void
+execute() -&gt; void
+getArgs() -&gt; class [Ljava.lang.String;
+getArgsForTable(fit.Parse) -&gt; void
+getClass() -&gt; class java.lang.Class
+getSymbol(java.lang.String) -&gt; class java.lang.Object
+gray(java.lang.String) -&gt; class java.lang.String
+handleBlankCell(fit.Parse, fit.TypeAdapter) -&gt; void
+hasParseMethod(java.lang.Class) -&gt; boolean
+hasSymbol(java.lang.String) -&gt; boolean
+hashCode() -&gt; int
+ignore(fit.Parse) -&gt; void
+isFriendlyException(java.lang.Throwable) -&gt; boolean
+label(java.lang.String) -&gt; class java.lang.String
+loadFixture(java.lang.String) -&gt; class fit.Fixture
+notify() -&gt; void
+notifyAll() -&gt; void
+parse(java.lang.String, java.lang.Class) -&gt; class java.lang.Object
+reset() -&gt; void
+right(fit.Parse) -&gt; void
+setForcedAbort(boolean) -&gt; void
+setSymbol(java.lang.String, java.lang.Object) -&gt; void
+toString() -&gt; class java.lang.String
+wait() -&gt; void
+wait(long) -&gt; void
+wait(long, int) -&gt; void
+wrong(fit.Parse) -&gt; void
+wrong(fit.Parse, java.lang.String) -&gt; void</evaluationMessage>
+        </expectation>
+      </instructionResult>
+      <instructionResult>
+        <instruction>{id='decisionTable_1_12', instruction='call', instanceName='decisionTable_1', methodName='setIdOsoby', args=[2]}</instruction>
+        <slimResult></slimResult>
+        <expectation>
+          <status>error</status>
+          <instructionId>decisionTable_1_12</instructionId>
+          <type>VoidReturnExpectation</type>
+          <evaluationMessage>No Method setIdOsoby[1] in class testyfitnessfixture.DodawanieBiletuZOsoba.
+ Available methods:
+ClearSymbols() -&gt; void
+callParseMethod(java.lang.Class, java.lang.String) -&gt; class java.lang.Object
+camel(java.lang.String) -&gt; class java.lang.String
+check(fit.Parse, fit.TypeAdapter) -&gt; void
+counts() -&gt; class java.lang.String
+doCell(fit.Parse, int) -&gt; void
+doCells(fit.Parse) -&gt; void
+doRow(fit.Parse) -&gt; void
+doRows(fit.Parse) -&gt; void
+doTable(fit.Parse) -&gt; void
+doTables(fit.Parse) -&gt; void
+dodajBiletZOsoba() -&gt; boolean
+equals(java.lang.Object) -&gt; boolean
+escape(java.lang.String) -&gt; class java.lang.String
+escape(java.lang.String, char, java.lang.String) -&gt; class java.lang.String
+exception(fit.Parse, java.lang.Throwable) -&gt; void
+execute() -&gt; void
+getArgs() -&gt; class [Ljava.lang.String;
+getArgsForTable(fit.Parse) -&gt; void
+getClass() -&gt; class java.lang.Class
+getSymbol(java.lang.String) -&gt; class java.lang.Object
+gray(java.lang.String) -&gt; class java.lang.String
+handleBlankCell(fit.Parse, fit.TypeAdapter) -&gt; void
+hasParseMethod(java.lang.Class) -&gt; boolean
+hasSymbol(java.lang.String) -&gt; boolean
+hashCode() -&gt; int
+ignore(fit.Parse) -&gt; void
+isFriendlyException(java.lang.Throwable) -&gt; boolean
+label(java.lang.String) -&gt; class java.lang.String
+loadFixture(java.lang.String) -&gt; class fit.Fixture
+notify() -&gt; void
+notifyAll() -&gt; void
+parse(java.lang.String, java.lang.Class) -&gt; class java.lang.Object
+reset() -&gt; void
+right(fit.Parse) -&gt; void
+setForcedAbort(boolean) -&gt; void
+setSymbol(java.lang.String, java.lang.Object) -&gt; void
+toString() -&gt; class java.lang.String
+wait() -&gt; void
+wait(long) -&gt; void
+wait(long, int) -&gt; void
+wrong(fit.Parse) -&gt; void
+wrong(fit.Parse, java.lang.String) -&gt; void</evaluationMessage>
+        </expectation>
+      </instructionResult>
+      <instructionResult>
+        <instruction>{id='decisionTable_1_13', instruction='call', instanceName='decisionTable_1', methodName='setNrBiletu', args=[200]}</instruction>
+        <slimResult></slimResult>
+        <expectation>
+          <status>error</status>
+          <instructionId>decisionTable_1_13</instructionId>
+          <type>VoidReturnExpectation</type>
+          <evaluationMessage>No Method setNrBiletu[1] in class testyfitnessfixture.DodawanieBiletuZOsoba.
+ Available methods:
+ClearSymbols() -&gt; void
+callParseMethod(java.lang.Class, java.lang.String) -&gt; class java.lang.Object
+camel(java.lang.String) -&gt; class java.lang.String
+check(fit.Parse, fit.TypeAdapter) -&gt; void
+counts() -&gt; class java.lang.String
+doCell(fit.Parse, int) -&gt; void
+doCells(fit.Parse) -&gt; void
+doRow(fit.Parse) -&gt; void
+doRows(fit.Parse) -&gt; void
+doTable(fit.Parse) -&gt; void
+doTables(fit.Parse) -&gt; void
+dodajBiletZOsoba() -&gt; boolean
+equals(java.lang.Object) -&gt; boolean
+escape(java.lang.String) -&gt; class java.lang.String
+escape(java.lang.String, char, java.lang.String) -&gt; class java.lang.String
+exception(fit.Parse, java.lang.Throwable) -&gt; void
+execute() -&gt; void
+getArgs() -&gt; class [Ljava.lang.String;
+getArgsForTable(fit.Parse) -&gt; void
+getClass() -&gt; class java.lang.Class
+getSymbol(java.lang.String) -&gt; class java.lang.Object
+gray(java.lang.String) -&gt; class java.lang.String
+handleBlankCell(fit.Parse, fit.TypeAdapter) -&gt; void
+hasParseMethod(java.lang.Class) -&gt; boolean
+hasSymbol(java.lang.String) -&gt; boolean
+hashCode() -&gt; int
+ignore(fit.Parse) -&gt; void
+isFriendlyException(java.lang.Throwable) -&gt; boolean
+label(java.lang.String) -&gt; class java.lang.String
+loadFixture(java.lang.String) -&gt; class fit.Fixture
+notify() -&gt; void
+notifyAll() -&gt; void
+parse(java.lang.String, java.lang.Class) -&gt; class java.lang.Object
+reset() -&gt; void
+right(fit.Parse) -&gt; void
+setForcedAbort(boolean) -&gt; void
+setSymbol(java.lang.String, java.lang.Object) -&gt; void
+toString() -&gt; class java.lang.String
+wait() -&gt; void
+wait(long) -&gt; void
+wait(long, int) -&gt; void
+wrong(fit.Parse) -&gt; void
+wrong(fit.Parse, java.lang.String) -&gt; void</evaluationMessage>
+        </expectation>
+      </instructionResult>
+      <instructionResult>
+        <instruction>{id='decisionTable_1_14', instruction='call', instanceName='decisionTable_1', methodName='setImiennosc', args=[true]}</instruction>
+        <slimResult></slimResult>
+        <expectation>
+          <status>error</status>
+          <instructionId>decisionTable_1_14</instructionId>
+          <type>VoidReturnExpectation</type>
+          <evaluationMessage>No Method setImiennosc[1] in class testyfitnessfixture.DodawanieBiletuZOsoba.
+ Available methods:
+ClearSymbols() -&gt; void
+callParseMethod(java.lang.Class, java.lang.String) -&gt; class java.lang.Object
+camel(java.lang.String) -&gt; class java.lang.String
+check(fit.Parse, fit.TypeAdapter) -&gt; void
+counts() -&gt; class java.lang.String
+doCell(fit.Parse, int) -&gt; void
+doCells(fit.Parse) -&gt; void
+doRow(fit.Parse) -&gt; void
+doRows(fit.Parse) -&gt; void
+doTable(fit.Parse) -&gt; void
+doTables(fit.Parse) -&gt; void
+dodajBiletZOsoba() -&gt; boolean
+equals(java.lang.Object) -&gt; boolean
+escape(java.lang.String) -&gt; class java.lang.String
+escape(java.lang.String, char, java.lang.String) -&gt; class java.lang.String
+exception(fit.Parse, java.lang.Throwable) -&gt; void
+execute() -&gt; void
+getArgs() -&gt; class [Ljava.lang.String;
+getArgsForTable(fit.Parse) -&gt; void
+getClass() -&gt; class java.lang.Class
+getSymbol(java.lang.String) -&gt; class java.lang.Object
+gray(java.lang.String) -&gt; class java.lang.String
+handleBlankCell(fit.Parse, fit.TypeAdapter) -&gt; void
+hasParseMethod(java.lang.Class) -&gt; boolean
+hasSymbol(java.lang.String) -&gt; boolean
+hashCode() -&gt; int
+ignore(fit.Parse) -&gt; void
+isFriendlyException(java.lang.Throwable) -&gt; boolean
+label(java.lang.String) -&gt; class java.lang.String
+loadFixture(java.lang.String) -&gt; class fit.Fixture
+notify() -&gt; void
+notifyAll() -&gt; void
+parse(java.lang.String, java.lang.Class) -&gt; class java.lang.Object
+reset() -&gt; void
+right(fit.Parse) -&gt; void
+setForcedAbort(boolean) -&gt; void
+setSymbol(java.lang.String, java.lang.Object) -&gt; void
+toString() -&gt; class java.lang.String
+wait() -&gt; void
+wait(long) -&gt; void
+wait(long, int) -&gt; void
+wrong(fit.Parse) -&gt; void
+wrong(fit.Parse, java.lang.String) -&gt; void</evaluationMessage>
+        </expectation>
+      </instructionResult>
+      <instructionResult>
+        <instruction>{id='decisionTable_1_15', instruction='call', instanceName='decisionTable_1', methodName='setUlga', args=[false]}</instruction>
+        <slimResult></slimResult>
+        <expectation>
+          <status>error</status>
+          <instructionId>decisionTable_1_15</instructionId>
+          <type>VoidReturnExpectation</type>
+          <evaluationMessage>No Method setUlga[1] in class testyfitnessfixture.DodawanieBiletuZOsoba.
+ Available methods:
+ClearSymbols() -&gt; void
+callParseMethod(java.lang.Class, java.lang.String) -&gt; class java.lang.Object
+camel(java.lang.String) -&gt; class java.lang.String
+check(fit.Parse, fit.TypeAdapter) -&gt; void
+counts() -&gt; class java.lang.String
+doCell(fit.Parse, int) -&gt; void
+doCells(fit.Parse) -&gt; void
+doRow(fit.Parse) -&gt; void
+doRows(fit.Parse) -&gt; void
+doTable(fit.Parse) -&gt; void
+doTables(fit.Parse) -&gt; void
+dodajBiletZOsoba() -&gt; boolean
+equals(java.lang.Object) -&gt; boolean
+escape(java.lang.String) -&gt; class java.lang.String
+escape(java.lang.String, char, java.lang.String) -&gt; class java.lang.String
+exception(fit.Parse, java.lang.Throwable) -&gt; void
+execute() -&gt; void
+getArgs() -&gt; class [Ljava.lang.String;
+getArgsForTable(fit.Parse) -&gt; void
+getClass() -&gt; class java.lang.Class
+getSymbol(java.lang.String) -&gt; class java.lang.Object
+gray(java.lang.String) -&gt; class java.lang.String
+handleBlankCell(fit.Parse, fit.TypeAdapter) -&gt; void
+hasParseMethod(java.lang.Class) -&gt; boolean
+hasSymbol(java.lang.String) -&gt; boolean
+hashCode() -&gt; int
+ignore(fit.Parse) -&gt; void
+isFriendlyException(java.lang.Throwable) -&gt; boolean
+label(java.lang.String) -&gt; class java.lang.String
+loadFixture(java.lang.String) -&gt; class fit.Fixture
+notify() -&gt; void
+notifyAll() -&gt; void
+parse(java.lang.String, java.lang.Class) -&gt; class java.lang.Object
+reset() -&gt; void
+right(fit.Parse) -&gt; void
+setForcedAbort(boolean) -&gt; void
+setSymbol(java.lang.String, java.lang.Object) -&gt; void
+toString() -&gt; class java.lang.String
+wait() -&gt; void
+wait(long) -&gt; void
+wait(long, int) -&gt; void
+wrong(fit.Parse) -&gt; void
+wrong(fit.Parse, java.lang.String) -&gt; void</evaluationMessage>
+        </expectation>
+      </instructionResult>
+      <instructionResult>
+        <instruction>{id='decisionTable_1_16', instruction='call', instanceName='decisionTable_1', methodName='setDataWaznosci', args=[2025-01-15T10:30:00]}</instruction>
+        <slimResult></slimResult>
+        <expectation>
+          <status>error</status>
+          <instructionId>decisionTable_1_16</instructionId>
+          <type>VoidReturnExpectation</type>
+          <evaluationMessage>No Method setDataWaznosci[1] in class testyfitnessfixture.DodawanieBiletuZOsoba.
+ Available methods:
+ClearSymbols() -&gt; void
+callParseMethod(java.lang.Class, java.lang.String) -&gt; class java.lang.Object
+camel(java.lang.String) -&gt; class java.lang.String
+check(fit.Parse, fit.TypeAdapter) -&gt; void
+counts() -&gt; class java.lang.String
+doCell(fit.Parse, int) -&gt; void
+doCells(fit.Parse) -&gt; void
+doRow(fit.Parse) -&gt; void
+doRows(fit.Parse) -&gt; void
+doTable(fit.Parse) -&gt; void
+doTables(fit.Parse) -&gt; void
+dodajBiletZOsoba() -&gt; boolean
+equals(java.lang.Object) -&gt; boolean
+escape(java.lang.String) -&gt; class java.lang.String
+escape(java.lang.String, char, java.lang.String) -&gt; class java.lang.String
+exception(fit.Parse, java.lang.Throwable) -&gt; void
+execute() -&gt; void
+getArgs() -&gt; class [Ljava.lang.String;
+getArgsForTable(fit.Parse) -&gt; void
+getClass() -&gt; class java.lang.Class
+getSymbol(java.lang.String) -&gt; class java.lang.Object
+gray(java.lang.String) -&gt; class java.lang.String
+handleBlankCell(fit.Parse, fit.TypeAdapter) -&gt; void
+hasParseMethod(java.lang.Class) -&gt; boolean
+hasSymbol(java.lang.String) -&gt; boolean
+hashCode() -&gt; int
+ignore(fit.Parse) -&gt; void
+isFriendlyException(java.lang.Throwable) -&gt; boolean
+label(java.lang.String) -&gt; class java.lang.String
+loadFixture(java.lang.String) -&gt; class fit.Fixture
+notify() -&gt; void
+notifyAll() -&gt; void
+parse(java.lang.String, java.lang.Class) -&gt; class java.lang.Object
+reset() -&gt; void
+right(fit.Parse) -&gt; void
+setForcedAbort(boolean) -&gt; void
+setSymbol(java.lang.String, java.lang.Object) -&gt; void
+toString() -&gt; class java.lang.String
+wait() -&gt; void
+wait(long) -&gt; void
+wait(long, int) -&gt; void
+wrong(fit.Parse) -&gt; void
+wrong(fit.Parse, java.lang.String) -&gt; void</evaluationMessage>
+        </expectation>
+      </instructionResult>
+      <instructionResult>
+        <instruction>{id='decisionTable_1_17', instruction='call', instanceName='decisionTable_1', methodName='setDodajBiletZOsoba', args=[true]}</instruction>
+        <slimResult></slimResult>
+        <expectation>
+          <status>error</status>
+          <instructionId>decisionTable_1_17</instructionId>
+          <type>VoidReturnExpectation</type>
+          <evaluationMessage>No Method setDodajBiletZOsoba[1] in class testyfitnessfixture.DodawanieBiletuZOsoba.
+ Available methods:
+ClearSymbols() -&gt; void
+callParseMethod(java.lang.Class, java.lang.String) -&gt; class java.lang.Object
+camel(java.lang.String) -&gt; class java.lang.String
+check(fit.Parse, fit.TypeAdapter) -&gt; void
+counts() -&gt; class java.lang.String
+doCell(fit.Parse, int) -&gt; void
+doCells(fit.Parse) -&gt; void
+doRow(fit.Parse) -&gt; void
+doRows(fit.Parse) -&gt; void
+doTable(fit.Parse) -&gt; void
+doTables(fit.Parse) -&gt; void
+dodajBiletZOsoba() -&gt; boolean
+equals(java.lang.Object) -&gt; boolean
+escape(java.lang.String) -&gt; class java.lang.String
+escape(java.lang.String, char, java.lang.String) -&gt; class java.lang.String
+exception(fit.Parse, java.lang.Throwable) -&gt; void
+execute() -&gt; void
+getArgs() -&gt; class [Ljava.lang.String;
+getArgsForTable(fit.Parse) -&gt; void
+getClass() -&gt; class java.lang.Class
+getSymbol(java.lang.String) -&gt; class java.lang.Object
+gray(java.lang.String) -&gt; class java.lang.String
+handleBlankCell(fit.Parse, fit.TypeAdapter) -&gt; void
+hasParseMethod(java.lang.Class) -&gt; boolean
+hasSymbol(java.lang.String) -&gt; boolean
+hashCode() -&gt; int
+ignore(fit.Parse) -&gt; void
+isFriendlyException(java.lang.Throwable) -&gt; boolean
+label(java.lang.String) -&gt; class java.lang.String
+loadFixture(java.lang.String) -&gt; class fit.Fixture
+notify() -&gt; void
+notifyAll() -&gt; void
+parse(java.lang.String, java.lang.Class) -&gt; class java.lang.Object
+reset() -&gt; void
+right(fit.Parse) -&gt; void
+setForcedAbort(boolean) -&gt; void
+setSymbol(java.lang.String, java.lang.Object) -&gt; void
+toString() -&gt; class java.lang.String
+wait() -&gt; void
+wait(long) -&gt; void
+wait(long, int) -&gt; void
+wrong(fit.Parse) -&gt; void
+wrong(fit.Parse, java.lang.String) -&gt; void</evaluationMessage>
+        </expectation>
+      </instructionResult>
+      <instructionResult>
+        <instruction>{id='decisionTable_1_20', instruction='call', instanceName='decisionTable_1', methodName='setIdOsoby', args=[3]}</instruction>
+        <slimResult></slimResult>
+        <expectation>
+          <status>error</status>
+          <instructionId>decisionTable_1_20</instructionId>
+          <type>VoidReturnExpectation</type>
+          <evaluationMessage>No Method setIdOsoby[1] in class testyfitnessfixture.DodawanieBiletuZOsoba.
+ Available methods:
+ClearSymbols() -&gt; void
+callParseMethod(java.lang.Class, java.lang.String) -&gt; class java.lang.Object
+camel(java.lang.String) -&gt; class java.lang.String
+check(fit.Parse, fit.TypeAdapter) -&gt; void
+counts() -&gt; class java.lang.String
+doCell(fit.Parse, int) -&gt; void
+doCells(fit.Parse) -&gt; void
+doRow(fit.Parse) -&gt; void
+doRows(fit.Parse) -&gt; void
+doTable(fit.Parse) -&gt; void
+doTables(fit.Parse) -&gt; void
+dodajBiletZOsoba() -&gt; boolean
+equals(java.lang.Object) -&gt; boolean
+escape(java.lang.String) -&gt; class java.lang.String
+escape(java.lang.String, char, java.lang.String) -&gt; class java.lang.String
+exception(fit.Parse, java.lang.Throwable) -&gt; void
+execute() -&gt; void
+getArgs() -&gt; class [Ljava.lang.String;
+getArgsForTable(fit.Parse) -&gt; void
+getClass() -&gt; class java.lang.Class
+getSymbol(java.lang.String) -&gt; class java.lang.Object
+gray(java.lang.String) -&gt; class java.lang.String
+handleBlankCell(fit.Parse, fit.TypeAdapter) -&gt; void
+hasParseMethod(java.lang.Class) -&gt; boolean
+hasSymbol(java.lang.String) -&gt; boolean
+hashCode() -&gt; int
+ignore(fit.Parse) -&gt; void
+isFriendlyException(java.lang.Throwable) -&gt; boolean
+label(java.lang.String) -&gt; class java.lang.String
+loadFixture(java.lang.String) -&gt; class fit.Fixture
+notify() -&gt; void
+notifyAll() -&gt; void
+parse(java.lang.String, java.lang.Class) -&gt; class java.lang.Object
+reset() -&gt; void
+right(fit.Parse) -&gt; void
+setForcedAbort(boolean) -&gt; void
+setSymbol(java.lang.String, java.lang.Object) -&gt; void
+toString() -&gt; class java.lang.String
+wait() -&gt; void
+wait(long) -&gt; void
+wait(long, int) -&gt; void
+wrong(fit.Parse) -&gt; void
+wrong(fit.Parse, java.lang.String) -&gt; void</evaluationMessage>
+        </expectation>
+      </instructionResult>
+      <instructionResult>
+        <instruction>{id='decisionTable_1_21', instruction='call', instanceName='decisionTable_1', methodName='setNrBiletu', args=[300]}</instruction>
+        <slimResult></slimResult>
+        <expectation>
+          <status>error</status>
+          <instructionId>decisionTable_1_21</instructionId>
+          <type>VoidReturnExpectation</type>
+          <evaluationMessage>No Method setNrBiletu[1] in class testyfitnessfixture.DodawanieBiletuZOsoba.
+ Available methods:
+ClearSymbols() -&gt; void
+callParseMethod(java.lang.Class, java.lang.String) -&gt; class java.lang.Object
+camel(java.lang.String) -&gt; class java.lang.String
+check(fit.Parse, fit.TypeAdapter) -&gt; void
+counts() -&gt; class java.lang.String
+doCell(fit.Parse, int) -&gt; void
+doCells(fit.Parse) -&gt; void
+doRow(fit.Parse) -&gt; void
+doRows(fit.Parse) -&gt; void
+doTable(fit.Parse) -&gt; void
+doTables(fit.Parse) -&gt; void
+dodajBiletZOsoba() -&gt; boolean
+equals(java.lang.Object) -&gt; boolean
+escape(java.lang.String) -&gt; class java.lang.String
+escape(java.lang.String, char, java.lang.String) -&gt; class java.lang.String
+exception(fit.Parse, java.lang.Throwable) -&gt; void
+execute() -&gt; void
+getArgs() -&gt; class [Ljava.lang.String;
+getArgsForTable(fit.Parse) -&gt; void
+getClass() -&gt; class java.lang.Class
+getSymbol(java.lang.String) -&gt; class java.lang.Object
+gray(java.lang.String) -&gt; class java.lang.String
+handleBlankCell(fit.Parse, fit.TypeAdapter) -&gt; void
+hasParseMethod(java.lang.Class) -&gt; boolean
+hasSymbol(java.lang.String) -&gt; boolean
+hashCode() -&gt; int
+ignore(fit.Parse) -&gt; void
+isFriendlyException(java.lang.Throwable) -&gt; boolean
+label(java.lang.String) -&gt; class java.lang.String
+loadFixture(java.lang.String) -&gt; class fit.Fixture
+notify() -&gt; void
+notifyAll() -&gt; void
+parse(java.lang.String, java.lang.Class) -&gt; class java.lang.Object
+reset() -&gt; void
+right(fit.Parse) -&gt; void
+setForcedAbort(boolean) -&gt; void
+setSymbol(java.lang.String, java.lang.Object) -&gt; void
+toString() -&gt; class java.lang.String
+wait() -&gt; void
+wait(long) -&gt; void
+wait(long, int) -&gt; void
+wrong(fit.Parse) -&gt; void
+wrong(fit.Parse, java.lang.String) -&gt; void</evaluationMessage>
+        </expectation>
+      </instructionResult>
+      <instructionResult>
+        <instruction>{id='decisionTable_1_22', instruction='call', instanceName='decisionTable_1', methodName='setImiennosc', args=[false]}</instruction>
+        <slimResult></slimResult>
+        <expectation>
+          <status>error</status>
+          <instructionId>decisionTable_1_22</instructionId>
+          <type>VoidReturnExpectation</type>
+          <evaluationMessage>No Method setImiennosc[1] in class testyfitnessfixture.DodawanieBiletuZOsoba.
+ Available methods:
+ClearSymbols() -&gt; void
+callParseMethod(java.lang.Class, java.lang.String) -&gt; class java.lang.Object
+camel(java.lang.String) -&gt; class java.lang.String
+check(fit.Parse, fit.TypeAdapter) -&gt; void
+counts() -&gt; class java.lang.String
+doCell(fit.Parse, int) -&gt; void
+doCells(fit.Parse) -&gt; void
+doRow(fit.Parse) -&gt; void
+doRows(fit.Parse) -&gt; void
+doTable(fit.Parse) -&gt; void
+doTables(fit.Parse) -&gt; void
+dodajBiletZOsoba() -&gt; boolean
+equals(java.lang.Object) -&gt; boolean
+escape(java.lang.String) -&gt; class java.lang.String
+escape(java.lang.String, char, java.lang.String) -&gt; class java.lang.String
+exception(fit.Parse, java.lang.Throwable) -&gt; void
+execute() -&gt; void
+getArgs() -&gt; class [Ljava.lang.String;
+getArgsForTable(fit.Parse) -&gt; void
+getClass() -&gt; class java.lang.Class
+getSymbol(java.lang.String) -&gt; class java.lang.Object
+gray(java.lang.String) -&gt; class java.lang.String
+handleBlankCell(fit.Parse, fit.TypeAdapter) -&gt; void
+hasParseMethod(java.lang.Class) -&gt; boolean
+hasSymbol(java.lang.String) -&gt; boolean
+hashCode() -&gt; int
+ignore(fit.Parse) -&gt; void
+isFriendlyException(java.lang.Throwable) -&gt; boolean
+label(java.lang.String) -&gt; class java.lang.String
+loadFixture(java.lang.String) -&gt; class fit.Fixture
+notify() -&gt; void
+notifyAll() -&gt; void
+parse(java.lang.String, java.lang.Class) -&gt; class java.lang.Object
+reset() -&gt; void
+right(fit.Parse) -&gt; void
+setForcedAbort(boolean) -&gt; void
+setSymbol(java.lang.String, java.lang.Object) -&gt; void
+toString() -&gt; class java.lang.String
+wait() -&gt; void
+wait(long) -&gt; void
+wait(long, int) -&gt; void
+wrong(fit.Parse) -&gt; void
+wrong(fit.Parse, java.lang.String) -&gt; void</evaluationMessage>
+        </expectation>
+      </instructionResult>
+      <instructionResult>
+        <instruction>{id='decisionTable_1_23', instruction='call', instanceName='decisionTable_1', methodName='setUlga', args=[true]}</instruction>
+        <slimResult></slimResult>
+        <expectation>
+          <status>error</status>
+          <instructionId>decisionTable_1_23</instructionId>
+          <type>VoidReturnExpectation</type>
+          <evaluationMessage>No Method setUlga[1] in class testyfitnessfixture.DodawanieBiletuZOsoba.
+ Available methods:
+ClearSymbols() -&gt; void
+callParseMethod(java.lang.Class, java.lang.String) -&gt; class java.lang.Object
+camel(java.lang.String) -&gt; class java.lang.String
+check(fit.Parse, fit.TypeAdapter) -&gt; void
+counts() -&gt; class java.lang.String
+doCell(fit.Parse, int) -&gt; void
+doCells(fit.Parse) -&gt; void
+doRow(fit.Parse) -&gt; void
+doRows(fit.Parse) -&gt; void
+doTable(fit.Parse) -&gt; void
+doTables(fit.Parse) -&gt; void
+dodajBiletZOsoba() -&gt; boolean
+equals(java.lang.Object) -&gt; boolean
+escape(java.lang.String) -&gt; class java.lang.String
+escape(java.lang.String, char, java.lang.String) -&gt; class java.lang.String
+exception(fit.Parse, java.lang.Throwable) -&gt; void
+execute() -&gt; void
+getArgs() -&gt; class [Ljava.lang.String;
+getArgsForTable(fit.Parse) -&gt; void
+getClass() -&gt; class java.lang.Class
+getSymbol(java.lang.String) -&gt; class java.lang.Object
+gray(java.lang.String) -&gt; class java.lang.String
+handleBlankCell(fit.Parse, fit.TypeAdapter) -&gt; void
+hasParseMethod(java.lang.Class) -&gt; boolean
+hasSymbol(java.lang.String) -&gt; boolean
+hashCode() -&gt; int
+ignore(fit.Parse) -&gt; void
+isFriendlyException(java.lang.Throwable) -&gt; boolean
+label(java.lang.String) -&gt; class java.lang.String
+loadFixture(java.lang.String) -&gt; class fit.Fixture
+notify() -&gt; void
+notifyAll() -&gt; void
+parse(java.lang.String, java.lang.Class) -&gt; class java.lang.Object
+reset() -&gt; void
+right(fit.Parse) -&gt; void
+setForcedAbort(boolean) -&gt; void
+setSymbol(java.lang.String, java.lang.Object) -&gt; void
+toString() -&gt; class java.lang.String
+wait() -&gt; void
+wait(long) -&gt; void
+wait(long, int) -&gt; void
+wrong(fit.Parse) -&gt; void
+wrong(fit.Parse, java.lang.String) -&gt; void</evaluationMessage>
+        </expectation>
+      </instructionResult>
+      <instructionResult>
+        <instruction>{id='decisionTable_1_24', instruction='call', instanceName='decisionTable_1', methodName='setDataWaznosci', args=[2025-05-10T08:00:00]}</instruction>
+        <slimResult></slimResult>
+        <expectation>
+          <status>error</status>
+          <instructionId>decisionTable_1_24</instructionId>
+          <type>VoidReturnExpectation</type>
+          <evaluationMessage>No Method setDataWaznosci[1] in class testyfitnessfixture.DodawanieBiletuZOsoba.
+ Available methods:
+ClearSymbols() -&gt; void
+callParseMethod(java.lang.Class, java.lang.String) -&gt; class java.lang.Object
+camel(java.lang.String) -&gt; class java.lang.String
+check(fit.Parse, fit.TypeAdapter) -&gt; void
+counts() -&gt; class java.lang.String
+doCell(fit.Parse, int) -&gt; void
+doCells(fit.Parse) -&gt; void
+doRow(fit.Parse) -&gt; void
+doRows(fit.Parse) -&gt; void
+doTable(fit.Parse) -&gt; void
+doTables(fit.Parse) -&gt; void
+dodajBiletZOsoba() -&gt; boolean
+equals(java.lang.Object) -&gt; boolean
+escape(java.lang.String) -&gt; class java.lang.String
+escape(java.lang.String, char, java.lang.String) -&gt; class java.lang.String
+exception(fit.Parse, java.lang.Throwable) -&gt; void
+execute() -&gt; void
+getArgs() -&gt; class [Ljava.lang.String;
+getArgsForTable(fit.Parse) -&gt; void
+getClass() -&gt; class java.lang.Class
+getSymbol(java.lang.String) -&gt; class java.lang.Object
+gray(java.lang.String) -&gt; class java.lang.String
+handleBlankCell(fit.Parse, fit.TypeAdapter) -&gt; void
+hasParseMethod(java.lang.Class) -&gt; boolean
+hasSymbol(java.lang.String) -&gt; boolean
+hashCode() -&gt; int
+ignore(fit.Parse) -&gt; void
+isFriendlyException(java.lang.Throwable) -&gt; boolean
+label(java.lang.String) -&gt; class java.lang.String
+loadFixture(java.lang.String) -&gt; class fit.Fixture
+notify() -&gt; void
+notifyAll() -&gt; void
+parse(java.lang.String, java.lang.Class) -&gt; class java.lang.Object
+reset() -&gt; void
+right(fit.Parse) -&gt; void
+setForcedAbort(boolean) -&gt; void
+setSymbol(java.lang.String, java.lang.Object) -&gt; void
+toString() -&gt; class java.lang.String
+wait() -&gt; void
+wait(long) -&gt; void
+wait(long, int) -&gt; void
+wrong(fit.Parse) -&gt; void
+wrong(fit.Parse, java.lang.String) -&gt; void</evaluationMessage>
+        </expectation>
+      </instructionResult>
+      <instructionResult>
+        <instruction>{id='decisionTable_1_25', instruction='call', instanceName='decisionTable_1', methodName='setDodajBiletZOsoba', args=[true]}</instruction>
+        <slimResult></slimResult>
+        <expectation>
+          <status>error</status>
+          <instructionId>decisionTable_1_25</instructionId>
+          <type>VoidReturnExpectation</type>
+          <evaluationMessage>No Method setDodajBiletZOsoba[1] in class testyfitnessfixture.DodawanieBiletuZOsoba.
+ Available methods:
+ClearSymbols() -&gt; void
+callParseMethod(java.lang.Class, java.lang.String) -&gt; class java.lang.Object
+camel(java.lang.String) -&gt; class java.lang.String
+check(fit.Parse, fit.TypeAdapter) -&gt; void
+counts() -&gt; class java.lang.String
+doCell(fit.Parse, int) -&gt; void
+doCells(fit.Parse) -&gt; void
+doRow(fit.Parse) -&gt; void
+doRows(fit.Parse) -&gt; void
+doTable(fit.Parse) -&gt; void
+doTables(fit.Parse) -&gt; void
+dodajBiletZOsoba() -&gt; boolean
+equals(java.lang.Object) -&gt; boolean
+escape(java.lang.String) -&gt; class java.lang.String
+escape(java.lang.String, char, java.lang.String) -&gt; class java.lang.String
+exception(fit.Parse, java.lang.Throwable) -&gt; void
+execute() -&gt; void
+getArgs() -&gt; class [Ljava.lang.String;
+getArgsForTable(fit.Parse) -&gt; void
+getClass() -&gt; class java.lang.Class
+getSymbol(java.lang.String) -&gt; class java.lang.Object
+gray(java.lang.String) -&gt; class java.lang.String
+handleBlankCell(fit.Parse, fit.TypeAdapter) -&gt; void
+hasParseMethod(java.lang.Class) -&gt; boolean
+hasSymbol(java.lang.String) -&gt; boolean
+hashCode() -&gt; int
+ignore(fit.Parse) -&gt; void
+isFriendlyException(java.lang.Throwable) -&gt; boolean
+label(java.lang.String) -&gt; class java.lang.String
+loadFixture(java.lang.String) -&gt; class fit.Fixture
+notify() -&gt; void
+notifyAll() -&gt; void
+parse(java.lang.String, java.lang.Class) -&gt; class java.lang.Object
+reset() -&gt; void
+right(fit.Parse) -&gt; void
+setForcedAbort(boolean) -&gt; void
+setSymbol(java.lang.String, java.lang.Object) -&gt; void
+toString() -&gt; class java.lang.String
+wait() -&gt; void
+wait(long) -&gt; void
+wait(long, int) -&gt; void
+wrong(fit.Parse) -&gt; void
+wrong(fit.Parse, java.lang.String) -&gt; void</evaluationMessage>
+        </expectation>
+      </instructionResult>
+    </instructions>
+  </result>
+  <executionLog>
+    <testSystem>slim:fitnesse.slim.SlimService</testSystem>
+    <command>java -cp C:\Users\patry\IdeaProjects\TestFitnesse\target\classes;C:\Users\patry\IdeaProjects\TestFitnesse\target\test-classes;C:\Users\patry\IdeaProjects\TestFitnesse\fitnesse-standalone.jar fitnesse.slim.SlimService 1</command>
+    <exitCode>0</exitCode>
+    <stdOut></stdOut>
+    <stdErr></stdErr>
+  </executionLog>
+  <finalCounts>
+    <right>0</right>
+    <wrong>0</wrong>
+    <ignores>0</ignores>
+    <exceptions>1</exceptions>
+  </finalCounts>
+  <totalRunTimeInMillis>371</totalRunTimeInMillis>
+</testResults>
+

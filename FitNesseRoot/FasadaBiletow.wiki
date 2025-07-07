@@ -1,0 +1,7 @@
+!1 Zestaw testów ${PAGE_NAME}
+!contents -R2 -g -p -f -h
+
+"Testy akceptacyjne systemu zarządzania biletami"
+
+!path C:\Users\patry\IdeaProjects\TestFitnesse\target\classes
+!path C:\Users\patry\IdeaProjects\TestFitnesse\target\test-classes

@@ -1,0 +1,45 @@
+<?xml version="1.0"?>
+<testResults>
+  <FitNesseVersion>v20241207</FitNesseVersion>
+  <rootPath>FrontPage.FasadaBiletow.DodawanieBiletuZOsoba</rootPath>
+  <result>
+    <counts>
+      <right>0</right>
+      <wrong>0</wrong>
+      <ignores>0</ignores>
+      <exceptions>0</exceptions>
+    </counts>
+    <date>2025-02-02T18:46:28+01:00</date>
+    <runTimeInMillis>10</runTimeInMillis>
+    <content>&lt;div class="collapsible closed"&gt;&lt;ul&gt;&lt;li&gt;&lt;a href='#' class='expandall'&gt;Expand&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href='#' class='collapseall'&gt;Collapse&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;
+	&lt;p class="title"&gt;Included page: &lt;a href="FrontPage.FasadaBiletow.SetUp"&gt;.FrontPage.FasadaBiletow.SetUp&lt;/a&gt; &lt;a href="FrontPage.FasadaBiletow.SetUp?edit&amp;amp;redirectToReferer=true&amp;amp;redirectAction=" class="edit"&gt;(edit)&lt;/a&gt;&lt;/p&gt;
+	&lt;div&gt;&lt;table&gt;
+	&lt;tr&gt;
+		&lt;td&gt;testyfitnessfixture.SetUp&lt;/td&gt;
+	&lt;/tr&gt;
+&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;br/&gt;&lt;div class="collapsible"&gt;&lt;ul&gt;&lt;li&gt;&lt;a href='#' class='expandall'&gt;Expand&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href='#' class='collapseall'&gt;Collapse&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;
+	&lt;p class="title"&gt;Included page: &lt;a href="FrontPage.FasadaBiletow.testDodawanieOsoby"&gt;testDodawanieOsoby&lt;/a&gt; &lt;a href="FrontPage.FasadaBiletow.testDodawanieOsoby?edit&amp;amp;redirectToReferer=true&amp;amp;redirectAction=" class="edit"&gt;(edit)&lt;/a&gt;&lt;/p&gt;
+	&lt;div&gt;!|testyfitnessfixture.testDodawanieOsoby|&lt;br/&gt;|imie  |nazwisko |pesel       |nrDokumentu |rola       |dodajOsobe()|&lt;br/&gt;|Jan   |Kowalski |12345678900 |ABC123456   |Klient     |true        |&lt;br/&gt;|Anna  |Nowak    |98765432100 |XYZ987654   |Klient     |true        |&lt;br/&gt;|Piotr |Zieliński|11122233300 |QWE111222   |Kierowca   |true        |&lt;br/&gt;|Anna  |Nowak    |-987654321  |XYZ987654   |Koordynator|false      | &lt;br/&gt;|null      |Zieliński|11122233344 |QWE111222   |Kierowca   |false      | &lt;br/&gt;|Piotr | null     |11122233344 |QWE111222   |Kierowca   |false      | &lt;br/&gt;|Jan   |Kowalski |123456      |ABC123456   |Klient     |false      | &lt;br/&gt;|Jan   |Kowalski |1234567890123|ABC123456  |Klient     |false      | &lt;br/&gt;|Jan   |Kowalski |12345678900 |   null      |Klient     |false      | &lt;/div&gt;
+&lt;/div&gt;
+&lt;br/&gt;&lt;br/&gt;</content>
+    <relativePageName>DodawanieBiletuZOsoba</relativePageName>
+  </result>
+  <executionLog>
+    <testSystem>fit:fit.FitServer</testSystem>
+    <command>java -cp C:\Users\patry\IdeaProjects\TestFitnesse\target\classes;C:\Users\patry\IdeaProjects\TestFitnesse\target\test-classes;C:\Users\patry\IdeaProjects\TestFitnesse\fitnesse-standalone.jar fit.FitServer LaptopPatrycja 15668 3863</command>
+    <exitCode>0</exitCode>
+    <stdOut></stdOut>
+    <stdErr></stdErr>
+  </executionLog>
+  <finalCounts>
+    <right>0</right>
+    <wrong>0</wrong>
+    <ignores>1</ignores>
+    <exceptions>0</exceptions>
+  </finalCounts>
+  <totalRunTimeInMillis>498</totalRunTimeInMillis>
+</testResults>
+

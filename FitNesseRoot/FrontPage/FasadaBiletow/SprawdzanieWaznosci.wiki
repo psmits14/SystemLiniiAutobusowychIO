@@ -1,0 +1,11 @@
+---
+Test
+---
+!|testyfitnessfixture.testSprawdzanieWaznosci|
+|nrBiletu|sprawdzWaznosc()|
+|11       |true         |
+|12       |true         |
+|13       |false        |
+|15       |false        | 
+
+

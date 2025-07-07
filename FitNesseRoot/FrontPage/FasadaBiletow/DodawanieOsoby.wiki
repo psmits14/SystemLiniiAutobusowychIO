@@ -1,0 +1,14 @@
+---
+Test
+---
+!|testyfitnessfixture.testDodawanieOsoby|
+|imie  |nazwisko |pesel       |nrDokumentu |rola       |dodajOsobe()|
+|Jan   |Kowalski |12345678900 |ABC123456   |Klient     |true        |
+|Anna  |Nowak    |98765432100 |XYZ987654   |Klient     |true        |
+|Piotr |Zieliński|11122233300 |QWE111222   |Kierowca   |true        |
+|Anna  |Nowak    |-987654321  |XYZ987654   |Koordynator|false      | 
+|null      |Zieliński|11122233344 |QWE111222   |Kierowca   |false      | 
+|Piotr | null     |11122233344 |QWE111222   |Kierowca   |false      | 
+|Jan   |Kowalski |123456      |ABC123456   |Klient     |false      | 
+|Jan   |Kowalski |1234567890123|ABC123456  |Klient     |false      | 
+|Jan   |Kowalski |12345678900 |   null      |Klient     |false      | 
