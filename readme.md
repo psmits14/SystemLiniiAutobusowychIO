@@ -6,7 +6,7 @@ Projekt System Informacyjny Linii Autobusowych został wykonany w ramach przedmi
 
 Aplikacja umożliwia kompleksowe zarządzanie liniami autobusowymi, przystankami, biletami oraz użytkownikami systemu. Została zrealizowana w języku Java z wykorzystaniem wzorców projektowych, takich jak Fasada, Strategia i Fabryka Abstrakcyjna, co zapewnia modularność, elastyczność i łatwość przyszłej rozbudowy systemu.
 
-W trakcie realizacji projektu wykorzystano narzędzie Visual Paradigm do tworzenia różnorodnych diagramów UML oraz makiet interfejsu użytkownika, co pozwoliło na dokładne zaplanowanie architektury systemu przed implementacją.
+W trakcie realizacji projektu wykorzystano narzędzie Visual Paradigm do tworzenia różnorodnych diagramów UML oraz makiet interfejsu użytkownika, co pozwoliło na dokładne zaplanowanie architektury systemu przed implementacją. Umieszczono je w folderze Diagramy.
 ## Funkcjonalności
 
 - **Zarządzanie liniami autobusowymi**: Dodawanie, modyfikowanie i usuwanie linii, przystanków oraz godzin odjazdów.
